@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geo Game</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="#/">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c3.2 3 3.2 15 0 18"/><path d="M12 3c-3.2 3-3.2 15 0 18"/>
+      </svg>
+      <span>Geo Game</span>
+    </a>
+  </header>
+
+  <!-- O main.js desenha o menu ou o modo de jogo aqui dentro.
+       O texto abaixo só continua visível se o main.js não carregar. -->
+  <main id="app">
+    <p class="mensagem">
+      Carregando… Se esta mensagem não sumir, abra o projeto por um servidor local:
+      na pasta <code>geo-game</code>, rode <code>python -m http.server</code> e acesse
+      <code>http://localhost:8000</code>.
+    </p>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

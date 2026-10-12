@@ -1,0 +1,1415 @@
+/*
+  Estilo do Geo Game.
+
+  Ideia visual: um atlas em tinta e água. Fundo de oceano claro com uma grade de
+  meridianos e paralelos bem fraca, painéis claros com um canto "cortado" (a marca do
+  jogo) e uma cor de destaque para cada modo, como regiões num mapa.
+
+  Sumário: 1 Tokens · 2 Base · 3 Topo · 4 Menu · 5 Tela de um modo · 6 Componentes ·
+           7 Quiz · 8 Adivinhe o país · 9 Mapa · 10 Animações · 11 Movimento reduzido
+*/
+
+/* ---------- 1. Tokens ---------- */
+:root {
+  --tinta: #0b2f3a;
+  --tinta-suave: #3d5f6b;
+  --mar: #dcebf0;
+  --mar-claro: #eef7fa;
+  --papel: #fbfdfe;
+  --linha: rgba(11, 47, 58, 0.14);
+  --linha-forte: rgba(11, 47, 58, 0.32);
+  --erro: #b3392b;
+  --acerto: #2e6b34;
+
+  --fonte-titulo: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --fonte-texto: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --raio: 4px 28px 4px 28px; /* o canto "cortado": painéis e cards */
+  --raio-menor: 4px 18px 4px 18px;
+  --sombra: 0 1px 0 rgba(11, 47, 58, 0.06), 0 14px 30px -18px rgba(11, 47, 58, 0.45);
+  --sombra-forte: 0 2px 0 rgba(11, 47, 58, 0.06), 0 26px 38px -20px rgba(11, 47, 58, 0.55);
+
+  /* Cor de destaque (muda em cada modo): normal, suave e forte (para texto e botões) */
+  --acento: #5b9bd0;
+  --acento-suave: #e1eef8;
+  --acento-forte: #1d5f94;
+}
+
+.tile--capitais,
+[data-modo="capitais"] {
+  --acento: #f2b632;
+  --acento-suave: #fdf0cc;
+  --acento-forte: #8a5d00;
+}
+
+.tile--atributos,
+[data-modo="atributos"] {
+  --acento: #8cc084;
+  --acento-suave: #e6f3e3;
+  --acento-forte: #2e6b34;
+}
+
+.tile--mapa,
+[data-modo="mapa"] {
+  --acento: #5b9bd0;
+  --acento-suave: #e1eef8;
+  --acento-forte: #1d5f94;
+}
+
+.tile--bandeiras,
+[data-modo="bandeiras"] {
+  --acento: #b7a6e6;
+  --acento-suave: #eeeafb;
+  --acento-forte: #5b45a8;
+}
+
+/* ---------- 2. Base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--tinta);
+  font-family: var(--fonte-texto);
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  background-color: var(--mar);
+  background-image:
+    radial-gradient(60rem 30rem at 90% -10%, #f3fafc 0%, transparent 70%),
+    radial-gradient(50rem 30rem at -10% 110%, #c3dce5 0%, transparent 70%),
+    linear-gradient(rgba(11, 47, 58, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11, 47, 58, 0.045) 1px, transparent 1px);
+  background-size: auto, auto, 6rem 6rem, 6rem 6rem;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: var(--acento);
+  color: var(--tinta);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--fonte-titulo);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--tinta);
+  outline-offset: 3px;
+}
+
+code {
+  padding: 0.1em 0.4em;
+  background: var(--mar);
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+.visualmente-oculto {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- 3. Topo ---------- */
+.topo,
+#app {
+  width: min(100%, 72rem);
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 2rem);
+}
+
+.topo {
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--fonte-titulo);
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.marca svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  color: var(--acento-forte);
+}
+
+#app {
+  padding-top: 0.5rem;
+  padding-bottom: 4rem;
+}
+
+/* ---------- 4. Menu ---------- */
+.hero {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(1.5rem, 4vw, 3rem) 0 clamp(1.75rem, 3vw, 2.75rem);
+}
+
+.hero h1 {
+  max-width: 14ch;
+  font-size: clamp(2.4rem, 6.2vw, 4.4rem);
+  letter-spacing: -0.03em;
+}
+
+.hero .intro {
+  max-width: 42ch;
+  margin: 1rem 0 0;
+  color: var(--tinta-suave);
+  font-size: 1.1rem;
+}
+
+/* O mapa-múndi de fundo é desenhado pelo main.js depois que o menu aparece */
+.hero-mundo {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  right: -4%;
+  translate: 0 -50%;
+  width: min(80%, 48rem);
+  height: auto;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 45%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 45%);
+  pointer-events: none;
+}
+
+.hero-mundo path {
+  fill: var(--tinta);
+  fill-opacity: 0.09;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 36rem) {
+  .tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 64rem) {
+  .tiles {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.tile {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-height: 16rem;
+  padding: 1.5rem;
+  color: var(--tinta);
+  text-decoration: none;
+  border-radius: var(--raio);
+  background: linear-gradient(155deg, var(--acento-suave) 0%, var(--acento) 160%);
+  box-shadow: var(--sombra);
+}
+
+/* Um círculo claro no canto, como um "marco" de mapa */
+.tile::before {
+  content: "";
+  position: absolute;
+  right: -3.5rem;
+  bottom: -3.5rem;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  pointer-events: none;
+}
+
+.tile > * {
+  position: relative;
+}
+
+.tile-icone {
+  display: grid;
+  place-items: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--acento-forte);
+  box-shadow: 0 6px 14px -8px rgba(11, 47, 58, 0.5);
+  transition: transform 0.25s ease;
+}
+
+.tile-icone svg {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.tile h2 {
+  margin-top: 0.9rem;
+  font-size: 1.6rem;
+}
+
+.tile p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
+.estado {
+  align-self: flex-start;
+  margin-top: auto;
+  padding-top: 0.35rem;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  background: var(--tinta);
+  color: var(--papel);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+a.tile {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+a.tile:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--sombra-forte);
+}
+
+a.tile:hover .tile-icone {
+  transform: rotate(-8deg) scale(1.1);
+}
+
+a.tile:active {
+  transform: translateY(-1px) scale(0.99);
+}
+
+.tile--em-breve {
+  opacity: 0.75;
+}
+
+.tile--em-breve .estado {
+  background: transparent;
+  color: var(--tinta);
+  border: 1.5px dashed var(--tinta-suave);
+}
+
+/* ---------- 5. Tela de um modo ---------- */
+.voltar {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin: 0.5rem 0 1rem;
+  padding: 0.35rem 1rem 0.35rem 0.5rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--linha);
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.voltar svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.voltar:hover {
+  background: #fff;
+}
+
+.modo-cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.modo-icone {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 18px;
+  background: var(--acento);
+  color: var(--tinta);
+  box-shadow: var(--sombra);
+}
+
+.modo-icone svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.modo-cabecalho h1 {
+  font-size: clamp(1.7rem, 4vw, 2.3rem);
+}
+
+.modo-cabecalho p {
+  max-width: 52ch;
+  margin: 0.25rem 0 0;
+  color: var(--tinta-suave);
+  font-size: 0.98rem;
+  line-height: 1.4;
+}
+
+/* O painel do jogo: papel claro, o canto "cortado" e uma faixa na cor do modo */
+#area-jogo {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(1.1rem, 3vw, 2rem);
+  padding-top: calc(clamp(1.1rem, 3vw, 2rem) + 6px);
+  background: var(--papel);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+}
+
+#area-jogo::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 6px;
+  background: linear-gradient(90deg, var(--acento), var(--acento-forte));
+}
+
+/* ---------- 6. Componentes ---------- */
+.botao {
+  padding: 0.75rem 1.8rem;
+  font: inherit;
+  font-weight: 700;
+  color: #fff;
+  background: var(--acento-forte);
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 10px 18px -12px rgba(11, 47, 58, 0.7);
+  cursor: pointer;
+  transition: transform 0.12s ease, filter 0.2s ease;
+}
+
+.botao:enabled:hover {
+  filter: brightness(1.15);
+}
+
+.botao:enabled:active {
+  transform: scale(0.96);
+}
+
+.botao:disabled {
+  opacity: 0.5;
+  cursor: default;
+  box-shadow: none;
+}
+
+.botao-texto {
+  padding: 0.5rem 0;
+  font: inherit;
+  font-weight: 600;
+  color: var(--acento-forte);
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+select,
+.adv-form input[type="text"] {
+  font: inherit;
+  color: var(--tinta);
+  background-color: var(--papel);
+  border: 2px solid var(--linha-forte);
+  border-radius: 999px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+select {
+  padding: 0.45rem 2.4rem 0.45rem 1rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%230b2f3a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.9rem center;
+  background-size: 0.8rem;
+  cursor: pointer;
+}
+
+select:hover,
+select:focus-visible,
+.adv-form input[type="text"]:focus {
+  border-color: var(--acento-forte);
+  box-shadow: 0 0 0 4px var(--acento-suave);
+}
+
+/* Linha de controles (seletores) e o placar em "cartões" */
+.quiz-controles,
+.mapa-selecoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+}
+
+.quiz-controles {
+  margin-bottom: 1.25rem;
+}
+
+.quiz-controles label,
+.mapa-selecoes label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+}
+
+.quiz-placar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  min-width: 5.6rem;
+  padding: 0.45rem 0.95rem 0.5rem;
+  background: var(--acento-suave);
+  border-radius: 4px 14px 4px 14px;
+}
+
+.stat strong {
+  font-family: var(--fonte-titulo);
+  font-size: 1.45rem;
+  line-height: 1.1;
+}
+
+.stat small {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--acento-forte);
+}
+
+.barra {
+  height: 0.55rem;
+  background: var(--mar);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.quiz-placar + .barra {
+  margin: 0.9rem 0 1.75rem;
+}
+
+.barra-preenchida {
+  width: 0;
+  height: 100%;
+  background: var(--acento-forte);
+  border-radius: inherit;
+  transition: width 0.6s ease;
+}
+
+/* Bandeiras (imagens SVG de data/flags) */
+.bandeira {
+  display: inline-block;
+  height: 1.15em;
+  aspect-ratio: 4 / 3;
+  width: auto;
+  vertical-align: -0.18em;
+  object-fit: cover;
+  background: var(--mar);
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(11, 47, 58, 0.22), 0 2px 4px rgba(11, 47, 58, 0.18);
+}
+
+.bandeira--titulo {
+  height: 0.95em;
+  margin-right: 0.1em;
+  border-radius: 5px;
+}
+
+.bandeira--mini {
+  height: 1.05em;
+}
+
+.bandeira--grande {
+  display: block;
+  height: clamp(7.5rem, 24vw, 12rem);
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(11, 47, 58, 0.22), var(--sombra);
+}
+
+.bandeira--opcao {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mensagens e avisos */
+.mensagem {
+  max-width: 40rem;
+  margin: 0;
+  padding: 0.9rem 1.2rem;
+  background: #fff;
+  border: 1px solid var(--linha);
+  border-left: 6px solid var(--acento);
+  border-radius: 4px 16px 16px 4px;
+}
+
+.mensagem--erro {
+  border-left-color: var(--erro);
+}
+
+.quiz-feedback {
+  margin-top: 1.25rem;
+}
+
+.quiz-feedback p {
+  margin: 0 0 0.4rem;
+}
+
+.quiz-feedback--certo,
+.quiz-feedback--errado {
+  padding-left: 1rem;
+  border-left: 6px solid var(--tinta-suave);
+}
+
+.quiz-feedback--certo {
+  border-left-color: var(--acerto);
+}
+
+.quiz-feedback--errado {
+  border-left-color: var(--erro);
+}
+
+.quiz-nota {
+  color: var(--tinta-suave);
+}
+
+.quiz-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+  margin-top: 1.25rem;
+}
+
+/* ---------- 7. Quiz (Capitais e Bandeiras) ---------- */
+.quiz-pergunta {
+  margin: 0 0 0.25rem;
+  color: var(--tinta-suave);
+  font-weight: 600;
+}
+
+.quiz-alvo {
+  margin-bottom: 1.5rem;
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  overflow-wrap: anywhere;
+}
+
+.quiz-opcoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr));
+  gap: 0.75rem;
+}
+
+.quiz-opcoes--imagens {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr));
+}
+
+.opcao {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.9rem 1.1rem;
+  font: inherit;
+  font-size: 1.12rem;
+  font-weight: 500;
+  text-align: left;
+  color: var(--tinta);
+  background: #fff;
+  border: 2px solid var(--linha);
+  border-radius: var(--raio-menor);
+  box-shadow: 0 8px 16px -14px rgba(11, 47, 58, 0.6);
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background-color 0.2s ease;
+}
+
+.opcao:enabled:hover {
+  background: var(--acento-suave);
+  border-color: var(--acento-forte);
+  transform: translateY(-2px);
+}
+
+.opcao:enabled:active {
+  transform: scale(0.98);
+}
+
+.opcao:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.opcao-tecla {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 2px solid var(--linha-forte);
+  border-radius: 50%;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--tinta-suave);
+}
+
+.opcao-texto {
+  flex: 1;
+}
+
+.opcao-marca {
+  font-weight: 800;
+}
+
+.opcao-nome {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.opcao--certa:disabled,
+.opcao--errada:disabled {
+  opacity: 1;
+}
+
+.opcao--certa:disabled {
+  background: #e0f2dc;
+  border-color: var(--acerto);
+}
+
+.opcao--errada:disabled {
+  background: #f8dcd6;
+  border-color: var(--erro);
+}
+
+/* Alternativas em imagem: a bandeira ocupa o card, o número e a marca ficam nos cantos */
+.quiz-opcoes--imagens .opcao {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0.7rem;
+}
+
+.quiz-opcoes--imagens .opcao-tecla {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.quiz-opcoes--imagens .opcao-marca {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+}
+
+/* ---------- 8. Adivinhe o país ---------- */
+.silhueta {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 15rem;
+  margin-bottom: 1.25rem;
+  padding: 1.5rem 1rem 3.4rem;
+  overflow: hidden;
+  background: radial-gradient(circle at 30% 15%, #fff 0%, var(--acento-suave) 75%);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio);
+}
+
+/* Grade de meridianos e paralelos atrás do formato */
+.silhueta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--linha) 1px, transparent 1px),
+    linear-gradient(90deg, var(--linha) 1px, transparent 1px);
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.silhueta-svg {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  height: clamp(9rem, 28vw, 13rem);
+  filter: drop-shadow(0 8px 10px rgba(11, 47, 58, 0.28));
+}
+
+.silhueta-svg path {
+  fill: var(--tinta);
+  stroke: var(--tinta);
+  stroke-linejoin: round;
+  fill-rule: evenodd;
+  transition: fill 0.4s ease, stroke 0.4s ease;
+}
+
+.silhueta--certa .silhueta-svg path {
+  fill: var(--acerto);
+  stroke: var(--acerto);
+}
+
+.silhueta--revelada .silhueta-svg path {
+  fill: var(--acento-forte);
+  stroke: var(--acento-forte);
+}
+
+.silhueta--oculta .silhueta-svg {
+  display: none;
+}
+
+.silhueta-oculta {
+  position: relative;
+  display: none;
+  font-family: var(--fonte-titulo);
+  font-size: clamp(5rem, 16vw, 8rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--acento-forte);
+  opacity: 0.35;
+}
+
+.silhueta--oculta .silhueta-oculta {
+  display: block;
+}
+
+/* Interruptor "Mostrar o formato" */
+.chave {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--tinta-suave);
+  cursor: pointer;
+}
+
+.chave input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.chave-trilho {
+  position: relative;
+  width: 2.5rem;
+  height: 1.45rem;
+  background: var(--linha-forte);
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.chave-trilho::after {
+  content: "";
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.chave input:checked + .chave-trilho {
+  background: var(--acento-forte);
+}
+
+.chave input:checked + .chave-trilho::after {
+  transform: translateX(1.05rem);
+}
+
+.chave input:focus-visible + .chave-trilho {
+  outline: 3px solid var(--tinta);
+  outline-offset: 2px;
+}
+
+.adv-instrucao {
+  max-width: 60ch;
+  margin: 0 0 1.25rem;
+  color: var(--tinta-suave);
+}
+
+.adv-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.adv-form input[type="text"] {
+  flex: 1;
+  min-width: 12rem;
+  padding: 0.7rem 1.2rem;
+}
+
+.adv-form input:disabled {
+  opacity: 0.5;
+}
+
+.adv-aviso {
+  min-height: 1.5rem;
+  margin: 0.5rem 0 0;
+  color: var(--erro);
+  font-weight: 600;
+}
+
+.adv-contador {
+  margin: 0.25rem 0 1rem;
+  color: var(--tinta-suave);
+  font-weight: 600;
+}
+
+.adv-dicas {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.adv-chutes {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.adv-chute {
+  padding: 1rem 1.25rem;
+  background: var(--mar-claro);
+  border: 1px solid var(--linha);
+  border-radius: var(--raio-menor);
+  box-shadow: 0 8px 18px -16px rgba(11, 47, 58, 0.6);
+}
+
+.adv-chute--certo {
+  background: #e0f2dc;
+  border-color: var(--acerto);
+}
+
+.adv-chute-titulo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 0.75rem;
+  font-family: var(--fonte-titulo);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.adv-chute-n {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 2px solid var(--tinta-suave);
+  border-radius: 50%;
+  font-family: var(--fonte-texto);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.adv-acertou {
+  margin: 0;
+  font-weight: 600;
+}
+
+.adv-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.35rem 0.8rem;
+  background: var(--papel);
+  border: 2px solid var(--linha-forte);
+  border-radius: 4px 14px 4px 14px;
+}
+
+.chip-rotulo {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--tinta-suave);
+}
+
+.chip-marca {
+  font-weight: 800;
+}
+
+.chip--certo,
+.chip--perto {
+  background: #c9e8c3;
+  border-color: var(--acerto);
+}
+
+.chip--errado {
+  background: #f3cfc9;
+  border-color: var(--erro);
+}
+
+.chip--parcial,
+.chip--medio {
+  background: #f6e3a8;
+  border-color: #8a6a00;
+}
+
+.adv-final {
+  margin-bottom: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--mar-claro);
+  border: 1px solid var(--linha);
+  border-left: 6px solid var(--tinta-suave);
+  border-radius: 4px 20px 20px 4px;
+}
+
+.adv-final--venceu {
+  border-left-color: var(--acerto);
+}
+
+.adv-final-titulo {
+  font-size: 1.1rem;
+  color: var(--tinta-suave);
+}
+
+.adv-final-nome {
+  margin: 0.25rem 0 1rem;
+  font-family: var(--fonte-titulo);
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  overflow-wrap: anywhere;
+}
+
+.adv-ficha {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 1rem;
+  margin: 0;
+}
+
+.adv-ficha dt {
+  font-weight: 600;
+  color: var(--tinta-suave);
+}
+
+.adv-ficha dd {
+  margin: 0;
+}
+
+/* ---------- 9. Mapa ---------- */
+/* O mapa precisa de altura: neste modo o cabeçalho da página fica mais enxuto */
+.modo[data-modo="mapa"] .voltar {
+  margin: 0.25rem 0 0.6rem;
+}
+
+.modo[data-modo="mapa"] .modo-cabecalho {
+  margin-bottom: 0.75rem;
+}
+
+.modo[data-modo="mapa"] .modo-icone {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 14px;
+}
+
+.modo[data-modo="mapa"] .modo-icone svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.modo[data-modo="mapa"] .modo-cabecalho h1 {
+  font-size: 1.6rem;
+}
+
+.modo[data-modo="mapa"] .modo-cabecalho p {
+  display: none;
+}
+
+/* Placar em uma linha só (número e rótulo lado a lado) */
+.mapa-modo .stat {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.4rem;
+  min-width: 0;
+  padding: 0.3rem 0.8rem;
+}
+
+.mapa-modo .stat strong {
+  font-size: 1.15rem;
+}
+
+.mapa-cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+
+.mapa-modo .barra {
+  margin: 0.75rem 0 1.1rem;
+}
+
+.mapa-topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mapa-modo .quiz-pergunta {
+  margin: 0;
+}
+
+.mapa-modo .quiz-alvo {
+  margin-bottom: 0.25rem;
+  font-size: clamp(1.6rem, 4.5vw, 2.4rem);
+}
+
+.mapa-acoes {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-left: auto;
+}
+
+/* O aviso de acerto/erro fica ao lado da pergunta, perto do olhar de quem joga */
+.mapa-feedback {
+  flex: 1 1 18rem;
+  margin: 0;
+}
+
+.mapa-area {
+  width: 100%; /* sem isto, o min-height abaixo alargaria a caixa por causa do aspect-ratio */
+  aspect-ratio: 16 / 9;
+  min-height: 20rem;
+  max-height: 75vh;
+  overflow: hidden;
+  border: 2px solid var(--linha-forte);
+  border-radius: 4px 24px 4px 24px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4), var(--sombra);
+}
+
+.mapa {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.mapa-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #c4dde6;
+  cursor: grab;
+  touch-action: none; /* o mapa cuida do arrastar e da pinça; a página não rola por cima */
+  user-select: none;
+}
+
+.mapa-svg.arrastando {
+  cursor: grabbing;
+}
+
+.mapa-svg:focus-visible {
+  outline-offset: -6px;
+}
+
+.mapa-svg .fundo {
+  fill: #dcd9cb;
+  stroke: #8a8f90;
+  stroke-width: 0.6px;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+.mapa-svg .pais {
+  fill: #f4f1e4;
+  stroke: #3d5f6b;
+  stroke-width: 0.7px;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  transition: fill 0.15s ease;
+}
+
+.mapa-svg .pais:hover {
+  fill: #f6dd9a;
+}
+
+/* Ponto dos países pequenos: o traço transparente e largo aumenta a área de clique */
+.mapa-svg .ponto {
+  fill: #0b2f3a;
+  stroke: transparent;
+  stroke-width: 16px;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  transition: fill 0.15s ease;
+}
+
+.mapa-svg .ponto:hover {
+  fill: #b8860b;
+}
+
+.mapa-svg .pais.pais--certo {
+  fill: #8cc084;
+}
+
+.mapa-svg .pais.pais--errado {
+  fill: #eba597;
+}
+
+.mapa-svg .ponto.pais--certo {
+  fill: #2e6b34;
+  stroke: rgba(46, 107, 52, 0.4);
+}
+
+.mapa-svg .ponto.pais--errado {
+  fill: #b3392b;
+  stroke: rgba(179, 57, 43, 0.4);
+}
+
+.mapa-controles {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mapa-botao {
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0 0.6rem;
+  font: inherit;
+  font-weight: 700;
+  color: var(--tinta);
+  background: var(--papel);
+  border: 2px solid var(--linha-forte);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px -8px rgba(11, 47, 58, 0.6);
+  cursor: pointer;
+}
+
+.mapa-botao:hover {
+  background: #fff;
+  border-color: var(--tinta);
+}
+
+.mapa-explorar {
+  min-height: 1.5rem;
+  margin: 0.75rem 0 0;
+  color: var(--tinta-suave);
+  font-weight: 600;
+}
+
+.mapa-ajuda {
+  max-width: 60ch;
+  margin: 0.25rem 0 0.5rem;
+  font-size: 0.95rem;
+  color: var(--tinta-suave);
+}
+
+/* ---------- 10. Animações ---------- */
+.confete {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.confete-peca {
+  position: absolute;
+  width: 0.55rem;
+  height: 0.35rem;
+  border-radius: 2px;
+}
+
+/* Os keyframes só têm o que muda: o estado final é o estilo normal do elemento */
+@keyframes entrar {
+  from { opacity: 0; transform: translateY(14px); }
+}
+
+@keyframes surgir {
+  from { opacity: 0; transform: scale(0.85) rotate(-3deg); }
+}
+
+@keyframes pop {
+  40% { transform: scale(1.07); }
+}
+
+@keyframes tremer {
+  20% { transform: translateX(-7px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(3px); }
+}
+
+@keyframes virar {
+  from { opacity: 0; transform: perspective(400px) rotateX(-90deg); }
+}
+
+@keyframes pulsar {
+  50% { fill-opacity: 0.35; }
+}
+
+@keyframes deriva {
+  to { transform: translateX(-4%); }
+}
+
+@keyframes confete {
+  0% { transform: translate(0, 0) rotate(0); opacity: 1; }
+  35% { transform: translate(calc(var(--dx) * 0.7), var(--sobe)) rotate(calc(var(--giro) * 0.4)); opacity: 1; }
+  100% { transform: translate(var(--dx), var(--cai)) rotate(var(--giro)); opacity: 0; }
+}
+
+/* "backwards" (e não "both") para que, depois de animar, o hover e o clique
+   voltem a mandar no transform do elemento */
+@media (prefers-reduced-motion: no-preference) {
+  .menu,
+  .modo {
+    animation: entrar 0.45s ease backwards;
+  }
+
+  .tile {
+    animation: entrar 0.5s ease backwards;
+    animation-delay: calc(var(--i, 0) * 70ms + 100ms);
+  }
+
+  .hero-mundo {
+    animation: deriva 40s ease-in-out infinite alternate;
+  }
+
+  .anima-entrar {
+    animation: entrar 0.35s ease backwards;
+  }
+
+  .anima-surgir {
+    animation: surgir 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+  }
+
+  .opcao {
+    animation: entrar 0.35s ease backwards;
+    animation-delay: calc(var(--i, 0) * 60ms);
+  }
+
+  .opcao--certa {
+    animation: pop 0.45s ease;
+  }
+
+  .opcao--errada {
+    animation: tremer 0.45s ease;
+  }
+
+  .quiz-feedback--certo,
+  .quiz-feedback--errado,
+  .adv-dicas .mensagem,
+  .adv-final {
+    animation: entrar 0.4s ease backwards;
+  }
+
+  .pulso {
+    animation: pop 0.4s ease;
+  }
+
+  .tremer {
+    animation: tremer 0.4s ease;
+  }
+
+  .adv-chute {
+    animation: entrar 0.4s ease backwards;
+  }
+
+  .adv-chute .chip {
+    animation: virar 0.5s ease backwards;
+    animation-delay: calc(var(--i, 0) * 90ms + 150ms);
+  }
+
+  .confete-peca {
+    animation: confete 1.3s ease-out both;
+  }
+
+  .mapa-svg .pais--alvo {
+    animation: pulsar 0.8s ease 3;
+  }
+}
+
+/* ---------- 11. Movimento reduzido ---------- */
+/* As animações já estão dentro de "no-preference" acima; aqui some o resto do movimento */
+@media (prefers-reduced-motion: reduce) {
+  a.tile,
+  .tile-icone,
+  .botao,
+  .opcao,
+  .barra-preenchida {
+    transition: none;
+  }
+
+  a.tile:hover,
+  a.tile:active,
+  a.tile:hover .tile-icone,
+  .opcao:enabled:hover,
+  .opcao:enabled:active,
+  .botao:enabled:active {
+    transform: none;
+  }
+}
