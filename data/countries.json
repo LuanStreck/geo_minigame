@@ -1,0 +1,5569 @@
+[
+ {
+  "id": "AFG",
+  "iso2": "AF",
+  "ccn3": "004",
+  "nome": "Afeganistão",
+  "nomeEn": "Afghanistan",
+  "capitais": [
+   "Cabul"
+  ],
+  "capitaisEn": [
+   "Kabul"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 33,
+  "lng": 65,
+  "area": 652230,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Dari",
+   "Pashto",
+   "Turkmen"
+  ],
+  "fronteiras": [
+   "IRN",
+   "PAK",
+   "TKM",
+   "UZB",
+   "TJK",
+   "CHN"
+  ],
+  "bandeira": "🇦🇫"
+ },
+ {
+  "id": "ALB",
+  "iso2": "AL",
+  "ccn3": "008",
+  "nome": "Albânia",
+  "nomeEn": "Albania",
+  "capitais": [
+   "Tirana"
+  ],
+  "capitaisEn": [
+   "Tirana"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 41,
+  "lng": 20,
+  "area": 28748,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Albanian"
+  ],
+  "fronteiras": [
+   "MNE",
+   "GRC",
+   "MKD"
+  ],
+  "bandeira": "🇦🇱"
+ },
+ {
+  "id": "DEU",
+  "iso2": "DE",
+  "ccn3": "276",
+  "nome": "Alemanha",
+  "nomeEn": "Germany",
+  "capitais": [
+   "Berlim"
+  ],
+  "capitaisEn": [
+   "Berlin"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 51,
+  "lng": 9,
+  "area": 357114,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "German"
+  ],
+  "fronteiras": [
+   "AUT",
+   "BEL",
+   "CZE",
+   "DNK",
+   "FRA",
+   "LUX",
+   "NLD",
+   "POL",
+   "CHE"
+  ],
+  "bandeira": "🇩🇪"
+ },
+ {
+  "id": "AND",
+  "iso2": "AD",
+  "ccn3": "020",
+  "nome": "Andorra",
+  "nomeEn": "Andorra",
+  "capitais": [
+   "Andorra-a-Velha"
+  ],
+  "capitaisEn": [
+   "Andorra la Vella"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 42.5,
+  "lng": 1.5,
+  "area": 468,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Catalan"
+  ],
+  "fronteiras": [
+   "FRA",
+   "ESP"
+  ],
+  "bandeira": "🇦🇩"
+ },
+ {
+  "id": "AGO",
+  "iso2": "AO",
+  "ccn3": "024",
+  "nome": "Angola",
+  "nomeEn": "Angola",
+  "capitais": [
+   "Luanda"
+  ],
+  "capitaisEn": [
+   "Luanda"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": -12.5,
+  "lng": 18.5,
+  "area": 1246700,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese"
+  ],
+  "fronteiras": [
+   "COG",
+   "COD",
+   "ZMB",
+   "NAM"
+  ],
+  "bandeira": "🇦🇴"
+ },
+ {
+  "id": "ATG",
+  "iso2": "AG",
+  "ccn3": "028",
+  "nome": "Antígua e Barbuda",
+  "nomeEn": "Antigua and Barbuda",
+  "capitais": [
+   "Saint John's"
+  ],
+  "capitaisEn": [
+   "Saint John's"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 17.05,
+  "lng": -61.8,
+  "area": 442,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇦🇬"
+ },
+ {
+  "id": "ARG",
+  "iso2": "AR",
+  "ccn3": "032",
+  "nome": "Argentina",
+  "nomeEn": "Argentina",
+  "capitais": [
+   "Buenos Aires"
+  ],
+  "capitaisEn": [
+   "Buenos Aires"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -34,
+  "lng": -64,
+  "area": 2780400,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Guaraní",
+   "Spanish"
+  ],
+  "fronteiras": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "PRY",
+   "URY"
+  ],
+  "bandeira": "🇦🇷"
+ },
+ {
+  "id": "DZA",
+  "iso2": "DZ",
+  "ccn3": "012",
+  "nome": "Argélia",
+  "nomeEn": "Algeria",
+  "capitais": [
+   "Argel"
+  ],
+  "capitaisEn": [
+   "Algiers"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Northern Africa",
+  "lat": 28,
+  "lng": 3,
+  "area": 2381741,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "TUN",
+   "LBY",
+   "NER",
+   "MRT",
+   "MLI",
+   "MAR"
+  ],
+  "bandeira": "🇩🇿"
+ },
+ {
+  "id": "ARM",
+  "iso2": "AM",
+  "ccn3": "051",
+  "nome": "Armênia",
+  "nomeEn": "Armenia",
+  "capitais": [
+   "Erevan"
+  ],
+  "capitaisEn": [
+   "Yerevan"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 40,
+  "lng": 45,
+  "area": 29743,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Armenian"
+  ],
+  "fronteiras": [
+   "AZE",
+   "GEO",
+   "IRN",
+   "TUR"
+  ],
+  "bandeira": "🇦🇲"
+ },
+ {
+  "id": "SAU",
+  "iso2": "SA",
+  "ccn3": "682",
+  "nome": "Arábia Saudita",
+  "nomeEn": "Saudi Arabia",
+  "capitais": [
+   "Riade"
+  ],
+  "capitaisEn": [
+   "Riyadh"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 25,
+  "lng": 45,
+  "area": 2149690,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "IRQ",
+   "JOR",
+   "KWT",
+   "OMN",
+   "QAT",
+   "ARE",
+   "YEM"
+  ],
+  "bandeira": "🇸🇦"
+ },
+ {
+  "id": "AUS",
+  "iso2": "AU",
+  "ccn3": "036",
+  "nome": "Austrália",
+  "nomeEn": "Australia",
+  "capitais": [
+   "Camberra"
+  ],
+  "capitaisEn": [
+   "Canberra"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Australia and New Zealand",
+  "lat": -27,
+  "lng": 133,
+  "area": 7692024,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇦🇺"
+ },
+ {
+  "id": "AZE",
+  "iso2": "AZ",
+  "ccn3": "031",
+  "nome": "Azerbaijão",
+  "nomeEn": "Azerbaijan",
+  "capitais": [
+   "Baku"
+  ],
+  "capitaisEn": [
+   "Baku"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 40.5,
+  "lng": 47.5,
+  "area": 86600,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Azerbaijani",
+   "Russian"
+  ],
+  "fronteiras": [
+   "ARM",
+   "GEO",
+   "IRN",
+   "RUS",
+   "TUR"
+  ],
+  "bandeira": "🇦🇿"
+ },
+ {
+  "id": "BHS",
+  "iso2": "BS",
+  "ccn3": "044",
+  "nome": "Bahamas",
+  "nomeEn": "Bahamas",
+  "capitais": [
+   "Nassau"
+  ],
+  "capitaisEn": [
+   "Nassau"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 24.25,
+  "lng": -76,
+  "area": 13943,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇧🇸"
+ },
+ {
+  "id": "BHR",
+  "iso2": "BH",
+  "ccn3": "048",
+  "nome": "Bahrein",
+  "nomeEn": "Bahrain",
+  "capitais": [
+   "Manama"
+  ],
+  "capitaisEn": [
+   "Manama"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 26,
+  "lng": 50.55,
+  "area": 765,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇧🇭"
+ },
+ {
+  "id": "BGD",
+  "iso2": "BD",
+  "ccn3": "050",
+  "nome": "Bangladesh",
+  "nomeEn": "Bangladesh",
+  "capitais": [
+   "Daca"
+  ],
+  "capitaisEn": [
+   "Dhaka"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 24,
+  "lng": 90,
+  "area": 147570,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Bengali"
+  ],
+  "fronteiras": [
+   "MMR",
+   "IND"
+  ],
+  "bandeira": "🇧🇩"
+ },
+ {
+  "id": "BRB",
+  "iso2": "BB",
+  "ccn3": "052",
+  "nome": "Barbados",
+  "nomeEn": "Barbados",
+  "capitais": [
+   "Bridgetown"
+  ],
+  "capitaisEn": [
+   "Bridgetown"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 13.16666666,
+  "lng": -59.53333333,
+  "area": 430,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇧🇧"
+ },
+ {
+  "id": "BLR",
+  "iso2": "BY",
+  "ccn3": "112",
+  "nome": "Belarus",
+  "nomeEn": "Belarus",
+  "capitais": [
+   "Minsk"
+  ],
+  "capitaisEn": [
+   "Minsk"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Eastern Europe",
+  "lat": 53,
+  "lng": 28,
+  "area": 207600,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Belarusian",
+   "Russian"
+  ],
+  "fronteiras": [
+   "LVA",
+   "LTU",
+   "POL",
+   "RUS",
+   "UKR"
+  ],
+  "bandeira": "🇧🇾"
+ },
+ {
+  "id": "BLZ",
+  "iso2": "BZ",
+  "ccn3": "084",
+  "nome": "Belize",
+  "nomeEn": "Belize",
+  "capitais": [
+   "Belmopan"
+  ],
+  "capitaisEn": [
+   "Belmopan"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 17.25,
+  "lng": -88.75,
+  "area": 22966,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Belizean Creole",
+   "English",
+   "Spanish"
+  ],
+  "fronteiras": [
+   "GTM",
+   "MEX"
+  ],
+  "bandeira": "🇧🇿"
+ },
+ {
+  "id": "BEN",
+  "iso2": "BJ",
+  "ccn3": "204",
+  "nome": "Benim",
+  "nomeEn": "Benin",
+  "capitais": [
+   "Porto-Novo"
+  ],
+  "capitaisEn": [
+   "Porto-Novo"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 9.5,
+  "lng": 2.25,
+  "area": 112622,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "BFA",
+   "NER",
+   "NGA",
+   "TGO"
+  ],
+  "bandeira": "🇧🇯"
+ },
+ {
+  "id": "BOL",
+  "iso2": "BO",
+  "ccn3": "068",
+  "nome": "Bolívia",
+  "nomeEn": "Bolivia",
+  "capitais": [
+   "Sucre",
+   "La Paz"
+  ],
+  "capitaisEn": [
+   "Sucre"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -17,
+  "lng": -65,
+  "area": 1098581,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Aymara",
+   "Guaraní",
+   "Quechua",
+   "Spanish"
+  ],
+  "fronteiras": [
+   "ARG",
+   "BRA",
+   "CHL",
+   "PRY",
+   "PER"
+  ],
+  "bandeira": "🇧🇴"
+ },
+ {
+  "id": "BWA",
+  "iso2": "BW",
+  "ccn3": "072",
+  "nome": "Botsuana",
+  "nomeEn": "Botswana",
+  "capitais": [
+   "Gaborone"
+  ],
+  "capitaisEn": [
+   "Gaborone"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Southern Africa",
+  "lat": -22,
+  "lng": 24,
+  "area": 582000,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English",
+   "Tswana"
+  ],
+  "fronteiras": [
+   "NAM",
+   "ZAF",
+   "ZMB",
+   "ZWE"
+  ],
+  "bandeira": "🇧🇼"
+ },
+ {
+  "id": "BRA",
+  "iso2": "BR",
+  "ccn3": "076",
+  "nome": "Brasil",
+  "nomeEn": "Brazil",
+  "capitais": [
+   "Brasília"
+  ],
+  "capitaisEn": [
+   "Brasília"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -10,
+  "lng": -55,
+  "area": 8515767,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese"
+  ],
+  "fronteiras": [
+   "ARG",
+   "BOL",
+   "COL",
+   "GUY",
+   "PRY",
+   "PER",
+   "SUR",
+   "URY",
+   "VEN"
+  ],
+  "bandeira": "🇧🇷"
+ },
+ {
+  "id": "BRN",
+  "iso2": "BN",
+  "ccn3": "096",
+  "nome": "Brunei",
+  "nomeEn": "Brunei",
+  "capitais": [
+   "Bandar Seri Begawan"
+  ],
+  "capitaisEn": [
+   "Bandar Seri Begawan"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 4.5,
+  "lng": 114.66666666,
+  "area": 5765,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Malay"
+  ],
+  "fronteiras": [
+   "MYS"
+  ],
+  "bandeira": "🇧🇳"
+ },
+ {
+  "id": "BGR",
+  "iso2": "BG",
+  "ccn3": "100",
+  "nome": "Bulgária",
+  "nomeEn": "Bulgaria",
+  "capitais": [
+   "Sófia"
+  ],
+  "capitaisEn": [
+   "Sofia"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 43,
+  "lng": 25,
+  "area": 110879,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Bulgarian"
+  ],
+  "fronteiras": [
+   "GRC",
+   "MKD",
+   "ROU",
+   "SRB",
+   "TUR"
+  ],
+  "bandeira": "🇧🇬"
+ },
+ {
+  "id": "BFA",
+  "iso2": "BF",
+  "ccn3": "854",
+  "nome": "Burkina Faso",
+  "nomeEn": "Burkina Faso",
+  "capitais": [
+   "Uagadugu"
+  ],
+  "capitaisEn": [
+   "Ouagadougou"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 13,
+  "lng": -2,
+  "area": 272967,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "BEN",
+   "CIV",
+   "GHA",
+   "MLI",
+   "NER",
+   "TGO"
+  ],
+  "bandeira": "🇧🇫"
+ },
+ {
+  "id": "BDI",
+  "iso2": "BI",
+  "ccn3": "108",
+  "nome": "Burundi",
+  "nomeEn": "Burundi",
+  "capitais": [
+   "Gitega"
+  ],
+  "capitaisEn": [
+   "Gitega"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -3.5,
+  "lng": 30,
+  "area": 27834,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French",
+   "Kirundi"
+  ],
+  "fronteiras": [
+   "COD",
+   "RWA",
+   "TZA"
+  ],
+  "bandeira": "🇧🇮"
+ },
+ {
+  "id": "BTN",
+  "iso2": "BT",
+  "ccn3": "064",
+  "nome": "Butão",
+  "nomeEn": "Bhutan",
+  "capitais": [
+   "Timphu"
+  ],
+  "capitaisEn": [
+   "Thimphu"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 27.5,
+  "lng": 90.5,
+  "area": 38394,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Dzongkha"
+  ],
+  "fronteiras": [
+   "CHN",
+   "IND"
+  ],
+  "bandeira": "🇧🇹"
+ },
+ {
+  "id": "BEL",
+  "iso2": "BE",
+  "ccn3": "056",
+  "nome": "Bélgica",
+  "nomeEn": "Belgium",
+  "capitais": [
+   "Bruxelas"
+  ],
+  "capitaisEn": [
+   "Brussels"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 50.83333333,
+  "lng": 4,
+  "area": 30528,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Dutch",
+   "French",
+   "German"
+  ],
+  "fronteiras": [
+   "FRA",
+   "DEU",
+   "LUX",
+   "NLD"
+  ],
+  "bandeira": "🇧🇪"
+ },
+ {
+  "id": "BIH",
+  "iso2": "BA",
+  "ccn3": "070",
+  "nome": "Bósnia e Herzegovina",
+  "nomeEn": "Bosnia and Herzegovina",
+  "capitais": [
+   "Sarajevo"
+  ],
+  "capitaisEn": [
+   "Sarajevo"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 44,
+  "lng": 18,
+  "area": 51209,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Bosnian",
+   "Croatian",
+   "Serbian"
+  ],
+  "fronteiras": [
+   "HRV",
+   "MNE",
+   "SRB"
+  ],
+  "bandeira": "🇧🇦"
+ },
+ {
+  "id": "CPV",
+  "iso2": "CV",
+  "ccn3": "132",
+  "nome": "Cabo Verde",
+  "nomeEn": "Cape Verde",
+  "capitais": [
+   "Praia"
+  ],
+  "capitaisEn": [
+   "Praia"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 16,
+  "lng": -24,
+  "area": 4033,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇨🇻"
+ },
+ {
+  "id": "CMR",
+  "iso2": "CM",
+  "ccn3": "120",
+  "nome": "Camarões",
+  "nomeEn": "Cameroon",
+  "capitais": [
+   "Iaundé"
+  ],
+  "capitaisEn": [
+   "Yaoundé"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 6,
+  "lng": 12,
+  "area": 475442,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "French"
+  ],
+  "fronteiras": [
+   "CAF",
+   "TCD",
+   "COG",
+   "GNQ",
+   "GAB",
+   "NGA"
+  ],
+  "bandeira": "🇨🇲"
+ },
+ {
+  "id": "KHM",
+  "iso2": "KH",
+  "ccn3": "116",
+  "nome": "Camboja",
+  "nomeEn": "Cambodia",
+  "capitais": [
+   "Phnom Penh"
+  ],
+  "capitaisEn": [
+   "Phnom Penh"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 13,
+  "lng": 105,
+  "area": 181035,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Khmer"
+  ],
+  "fronteiras": [
+   "LAO",
+   "THA",
+   "VNM"
+  ],
+  "bandeira": "🇰🇭"
+ },
+ {
+  "id": "CAN",
+  "iso2": "CA",
+  "ccn3": "124",
+  "nome": "Canadá",
+  "nomeEn": "Canada",
+  "capitais": [
+   "Ottawa"
+  ],
+  "capitaisEn": [
+   "Ottawa"
+  ],
+  "regiao": "Americas",
+  "subregiao": "North America",
+  "lat": 60,
+  "lng": -95,
+  "area": 9984670,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "French"
+  ],
+  "fronteiras": [
+   "USA"
+  ],
+  "bandeira": "🇨🇦"
+ },
+ {
+  "id": "QAT",
+  "iso2": "QA",
+  "ccn3": "634",
+  "nome": "Catar",
+  "nomeEn": "Qatar",
+  "capitais": [
+   "Doha"
+  ],
+  "capitaisEn": [
+   "Doha"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 25.5,
+  "lng": 51.25,
+  "area": 11586,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "SAU"
+  ],
+  "bandeira": "🇶🇦"
+ },
+ {
+  "id": "KAZ",
+  "iso2": "KZ",
+  "ccn3": "398",
+  "nome": "Cazaquistão",
+  "nomeEn": "Kazakhstan",
+  "capitais": [
+   "Astana"
+  ],
+  "capitaisEn": [
+   "Astana"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Central Asia",
+  "lat": 48,
+  "lng": 68,
+  "area": 2724900,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Kazakh",
+   "Russian"
+  ],
+  "fronteiras": [
+   "CHN",
+   "KGZ",
+   "RUS",
+   "TKM",
+   "UZB"
+  ],
+  "bandeira": "🇰🇿"
+ },
+ {
+  "id": "TCD",
+  "iso2": "TD",
+  "ccn3": "148",
+  "nome": "Chade",
+  "nomeEn": "Chad",
+  "capitais": [
+   "N'Djamena"
+  ],
+  "capitaisEn": [
+   "N'Djamena"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 15,
+  "lng": 19,
+  "area": 1284000,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Arabic",
+   "French"
+  ],
+  "fronteiras": [
+   "CMR",
+   "CAF",
+   "LBY",
+   "NER",
+   "NGA",
+   "SDN"
+  ],
+  "bandeira": "🇹🇩"
+ },
+ {
+  "id": "CHL",
+  "iso2": "CL",
+  "ccn3": "152",
+  "nome": "Chile",
+  "nomeEn": "Chile",
+  "capitais": [
+   "Santiago"
+  ],
+  "capitaisEn": [
+   "Santiago"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -30,
+  "lng": -71,
+  "area": 756102,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "ARG",
+   "BOL",
+   "PER"
+  ],
+  "bandeira": "🇨🇱"
+ },
+ {
+  "id": "CHN",
+  "iso2": "CN",
+  "ccn3": "156",
+  "nome": "China",
+  "nomeEn": "China",
+  "capitais": [
+   "Pequim"
+  ],
+  "capitaisEn": [
+   "Beijing"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Eastern Asia",
+  "lat": 35,
+  "lng": 105,
+  "area": 9706961,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Chinese"
+  ],
+  "fronteiras": [
+   "AFG",
+   "BTN",
+   "MMR",
+   "IND",
+   "KAZ",
+   "NPL",
+   "PRK",
+   "KGZ",
+   "LAO",
+   "MNG",
+   "PAK",
+   "RUS",
+   "TJK",
+   "VNM"
+  ],
+  "bandeira": "🇨🇳"
+ },
+ {
+  "id": "CYP",
+  "iso2": "CY",
+  "ccn3": "196",
+  "nome": "Chipre",
+  "nomeEn": "Cyprus",
+  "capitais": [
+   "Nicósia"
+  ],
+  "capitaisEn": [
+   "Nicosia"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 35,
+  "lng": 33,
+  "area": 9251,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Greek",
+   "Turkish"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇨🇾"
+ },
+ {
+  "id": "VAT",
+  "iso2": "VA",
+  "ccn3": "336",
+  "nome": "Cidade do Vaticano",
+  "nomeEn": "Vatican City",
+  "capitais": [
+   "Cidade do Vaticano"
+  ],
+  "capitaisEn": [
+   "Vatican City"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 41.9,
+  "lng": 12.45,
+  "area": 0.44,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Italian",
+   "Latin"
+  ],
+  "fronteiras": [
+   "ITA"
+  ],
+  "bandeira": "🇻🇦"
+ },
+ {
+  "id": "COL",
+  "iso2": "CO",
+  "ccn3": "170",
+  "nome": "Colômbia",
+  "nomeEn": "Colombia",
+  "capitais": [
+   "Bogotá"
+  ],
+  "capitaisEn": [
+   "Bogotá"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": 4,
+  "lng": -72,
+  "area": 1141748,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "BRA",
+   "ECU",
+   "PAN",
+   "PER",
+   "VEN"
+  ],
+  "bandeira": "🇨🇴"
+ },
+ {
+  "id": "COM",
+  "iso2": "KM",
+  "ccn3": "174",
+  "nome": "Comores",
+  "nomeEn": "Comoros",
+  "capitais": [
+   "Moroni"
+  ],
+  "capitaisEn": [
+   "Moroni"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -12.16666666,
+  "lng": 44.25,
+  "area": 1862,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "Comorian",
+   "French"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇰🇲"
+ },
+ {
+  "id": "PRK",
+  "iso2": "KP",
+  "ccn3": "408",
+  "nome": "Coreia do Norte",
+  "nomeEn": "North Korea",
+  "capitais": [
+   "Pyongyang"
+  ],
+  "capitaisEn": [
+   "Pyongyang"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Eastern Asia",
+  "lat": 40,
+  "lng": 127,
+  "area": 120538,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Korean"
+  ],
+  "fronteiras": [
+   "CHN",
+   "KOR",
+   "RUS"
+  ],
+  "bandeira": "🇰🇵"
+ },
+ {
+  "id": "KOR",
+  "iso2": "KR",
+  "ccn3": "410",
+  "nome": "Coreia do Sul",
+  "nomeEn": "South Korea",
+  "capitais": [
+   "Seul"
+  ],
+  "capitaisEn": [
+   "Seoul"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Eastern Asia",
+  "lat": 37,
+  "lng": 127.5,
+  "area": 100210,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Korean"
+  ],
+  "fronteiras": [
+   "PRK"
+  ],
+  "bandeira": "🇰🇷"
+ },
+ {
+  "id": "CRI",
+  "iso2": "CR",
+  "ccn3": "188",
+  "nome": "Costa Rica",
+  "nomeEn": "Costa Rica",
+  "capitais": [
+   "San José"
+  ],
+  "capitaisEn": [
+   "San José"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 10,
+  "lng": -84,
+  "area": 51100,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "NIC",
+   "PAN"
+  ],
+  "bandeira": "🇨🇷"
+ },
+ {
+  "id": "CIV",
+  "iso2": "CI",
+  "ccn3": "384",
+  "nome": "Costa do Marfim",
+  "nomeEn": "Ivory Coast",
+  "capitais": [
+   "Yamoussoukro"
+  ],
+  "capitaisEn": [
+   "Yamoussoukro"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 8,
+  "lng": -5,
+  "area": 322463,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "BFA",
+   "GHA",
+   "GIN",
+   "LBR",
+   "MLI"
+  ],
+  "bandeira": "🇨🇮"
+ },
+ {
+  "id": "HRV",
+  "iso2": "HR",
+  "ccn3": "191",
+  "nome": "Croácia",
+  "nomeEn": "Croatia",
+  "capitais": [
+   "Zagreb"
+  ],
+  "capitaisEn": [
+   "Zagreb"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 45.16666666,
+  "lng": 15.5,
+  "area": 56594,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Croatian"
+  ],
+  "fronteiras": [
+   "BIH",
+   "HUN",
+   "MNE",
+   "SRB",
+   "SVN"
+  ],
+  "bandeira": "🇭🇷"
+ },
+ {
+  "id": "CUB",
+  "iso2": "CU",
+  "ccn3": "192",
+  "nome": "Cuba",
+  "nomeEn": "Cuba",
+  "capitais": [
+   "Havana"
+  ],
+  "capitaisEn": [
+   "Havana"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 21.5,
+  "lng": -80,
+  "area": 109884,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇨🇺"
+ },
+ {
+  "id": "DNK",
+  "iso2": "DK",
+  "ccn3": "208",
+  "nome": "Dinamarca",
+  "nomeEn": "Denmark",
+  "capitais": [
+   "Copenhague"
+  ],
+  "capitaisEn": [
+   "Copenhagen"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 56,
+  "lng": 10,
+  "area": 43094,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Danish"
+  ],
+  "fronteiras": [
+   "DEU"
+  ],
+  "bandeira": "🇩🇰"
+ },
+ {
+  "id": "DJI",
+  "iso2": "DJ",
+  "ccn3": "262",
+  "nome": "Djibuti",
+  "nomeEn": "Djibouti",
+  "capitais": [
+   "Djibuti"
+  ],
+  "capitaisEn": [
+   "Djibouti"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": 11.5,
+  "lng": 43,
+  "area": 23200,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "French"
+  ],
+  "fronteiras": [
+   "ERI",
+   "ETH",
+   "SOM"
+  ],
+  "bandeira": "🇩🇯"
+ },
+ {
+  "id": "DMA",
+  "iso2": "DM",
+  "ccn3": "212",
+  "nome": "Dominica",
+  "nomeEn": "Dominica",
+  "capitais": [
+   "Roseau"
+  ],
+  "capitaisEn": [
+   "Roseau"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 15.41666666,
+  "lng": -61.33333333,
+  "area": 751,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇩🇲"
+ },
+ {
+  "id": "EGY",
+  "iso2": "EG",
+  "ccn3": "818",
+  "nome": "Egito",
+  "nomeEn": "Egypt",
+  "capitais": [
+   "Cairo"
+  ],
+  "capitaisEn": [
+   "Cairo"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Northern Africa",
+  "lat": 27,
+  "lng": 30,
+  "area": 1002450,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "ISR",
+   "LBY",
+   "SDN"
+  ],
+  "bandeira": "🇪🇬"
+ },
+ {
+  "id": "SLV",
+  "iso2": "SV",
+  "ccn3": "222",
+  "nome": "El Salvador",
+  "nomeEn": "El Salvador",
+  "capitais": [
+   "San Salvador"
+  ],
+  "capitaisEn": [
+   "San Salvador"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 13.83333333,
+  "lng": -88.91666666,
+  "area": 21041,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "GTM",
+   "HND"
+  ],
+  "bandeira": "🇸🇻"
+ },
+ {
+  "id": "ARE",
+  "iso2": "AE",
+  "ccn3": "784",
+  "nome": "Emirados Árabes Unidos",
+  "nomeEn": "United Arab Emirates",
+  "capitais": [
+   "Abu Dhabi"
+  ],
+  "capitaisEn": [
+   "Abu Dhabi"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 24,
+  "lng": 54,
+  "area": 83600,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "OMN",
+   "SAU"
+  ],
+  "bandeira": "🇦🇪"
+ },
+ {
+  "id": "ECU",
+  "iso2": "EC",
+  "ccn3": "218",
+  "nome": "Equador",
+  "nomeEn": "Ecuador",
+  "capitais": [
+   "Quito"
+  ],
+  "capitaisEn": [
+   "Quito"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -2,
+  "lng": -77.5,
+  "area": 276841,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "COL",
+   "PER"
+  ],
+  "bandeira": "🇪🇨"
+ },
+ {
+  "id": "ERI",
+  "iso2": "ER",
+  "ccn3": "232",
+  "nome": "Eritreia",
+  "nomeEn": "Eritrea",
+  "capitais": [
+   "Asmara"
+  ],
+  "capitaisEn": [
+   "Asmara"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": 15,
+  "lng": 39,
+  "area": 117600,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "English",
+   "Tigrinya"
+  ],
+  "fronteiras": [
+   "DJI",
+   "ETH",
+   "SDN"
+  ],
+  "bandeira": "🇪🇷"
+ },
+ {
+  "id": "SVK",
+  "iso2": "SK",
+  "ccn3": "703",
+  "nome": "Eslováquia",
+  "nomeEn": "Slovakia",
+  "capitais": [
+   "Bratislava"
+  ],
+  "capitaisEn": [
+   "Bratislava"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Central Europe",
+  "lat": 48.66666666,
+  "lng": 19.5,
+  "area": 49037,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Slovak"
+  ],
+  "fronteiras": [
+   "AUT",
+   "CZE",
+   "HUN",
+   "POL",
+   "UKR"
+  ],
+  "bandeira": "🇸🇰"
+ },
+ {
+  "id": "SVN",
+  "iso2": "SI",
+  "ccn3": "705",
+  "nome": "Eslovênia",
+  "nomeEn": "Slovenia",
+  "capitais": [
+   "Liubliana"
+  ],
+  "capitaisEn": [
+   "Ljubljana"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Central Europe",
+  "lat": 46.11666666,
+  "lng": 14.81666666,
+  "area": 20273,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Slovene"
+  ],
+  "fronteiras": [
+   "AUT",
+   "HRV",
+   "ITA",
+   "HUN"
+  ],
+  "bandeira": "🇸🇮"
+ },
+ {
+  "id": "ESP",
+  "iso2": "ES",
+  "ccn3": "724",
+  "nome": "Espanha",
+  "nomeEn": "Spain",
+  "capitais": [
+   "Madri"
+  ],
+  "capitaisEn": [
+   "Madrid"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 40,
+  "lng": -4,
+  "area": 505992,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "AND",
+   "FRA",
+   "PRT",
+   "MAR"
+  ],
+  "bandeira": "🇪🇸"
+ },
+ {
+  "id": "SWZ",
+  "iso2": "SZ",
+  "ccn3": "748",
+  "nome": "Essuatíni",
+  "nomeEn": "Eswatini",
+  "capitais": [
+   "Mbabane",
+   "Lobamba"
+  ],
+  "capitaisEn": [
+   "Lobamba"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Southern Africa",
+  "lat": -26.5,
+  "lng": 31.5,
+  "area": 17364,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English",
+   "Swazi"
+  ],
+  "fronteiras": [
+   "MOZ",
+   "ZAF"
+  ],
+  "bandeira": "🇸🇿"
+ },
+ {
+  "id": "USA",
+  "iso2": "US",
+  "ccn3": "840",
+  "nome": "Estados Unidos",
+  "nomeEn": "United States",
+  "capitais": [
+   "Washington, D.C."
+  ],
+  "capitaisEn": [
+   "Washington D.C."
+  ],
+  "regiao": "Americas",
+  "subregiao": "North America",
+  "lat": 38,
+  "lng": -97,
+  "area": 9372610,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "CAN",
+   "MEX"
+  ],
+  "bandeira": "🇺🇸"
+ },
+ {
+  "id": "EST",
+  "iso2": "EE",
+  "ccn3": "233",
+  "nome": "Estônia",
+  "nomeEn": "Estonia",
+  "capitais": [
+   "Tallinn"
+  ],
+  "capitaisEn": [
+   "Tallinn"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 59,
+  "lng": 26,
+  "area": 45227,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Estonian"
+  ],
+  "fronteiras": [
+   "LVA",
+   "RUS"
+  ],
+  "bandeira": "🇪🇪"
+ },
+ {
+  "id": "ETH",
+  "iso2": "ET",
+  "ccn3": "231",
+  "nome": "Etiópia",
+  "nomeEn": "Ethiopia",
+  "capitais": [
+   "Adis Abeba"
+  ],
+  "capitaisEn": [
+   "Addis Ababa"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": 8,
+  "lng": 38,
+  "area": 1104300,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Amharic"
+  ],
+  "fronteiras": [
+   "DJI",
+   "ERI",
+   "KEN",
+   "SOM",
+   "SSD",
+   "SDN"
+  ],
+  "bandeira": "🇪🇹"
+ },
+ {
+  "id": "FJI",
+  "iso2": "FJ",
+  "ccn3": "242",
+  "nome": "Fiji",
+  "nomeEn": "Fiji",
+  "capitais": [
+   "Suva"
+  ],
+  "capitaisEn": [
+   "Suva"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Melanesia",
+  "lat": -18,
+  "lng": 175,
+  "area": 18272,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Fiji Hindi",
+   "Fijian"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇫🇯"
+ },
+ {
+  "id": "PHL",
+  "iso2": "PH",
+  "ccn3": "608",
+  "nome": "Filipinas",
+  "nomeEn": "Philippines",
+  "capitais": [
+   "Manila"
+  ],
+  "capitaisEn": [
+   "Manila"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 13,
+  "lng": 122,
+  "area": 342353,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Filipino"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇵🇭"
+ },
+ {
+  "id": "FIN",
+  "iso2": "FI",
+  "ccn3": "246",
+  "nome": "Finlândia",
+  "nomeEn": "Finland",
+  "capitais": [
+   "Helsinque"
+  ],
+  "capitaisEn": [
+   "Helsinki"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 64,
+  "lng": 26,
+  "area": 338424,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Finnish",
+   "Swedish"
+  ],
+  "fronteiras": [
+   "NOR",
+   "SWE",
+   "RUS"
+  ],
+  "bandeira": "🇫🇮"
+ },
+ {
+  "id": "FRA",
+  "iso2": "FR",
+  "ccn3": "250",
+  "nome": "França",
+  "nomeEn": "France",
+  "capitais": [
+   "Paris"
+  ],
+  "capitaisEn": [
+   "Paris"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 46,
+  "lng": 2,
+  "area": 551695,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "AND",
+   "BEL",
+   "DEU",
+   "ITA",
+   "LUX",
+   "MCO",
+   "ESP",
+   "CHE"
+  ],
+  "bandeira": "🇫🇷"
+ },
+ {
+  "id": "GAB",
+  "iso2": "GA",
+  "ccn3": "266",
+  "nome": "Gabão",
+  "nomeEn": "Gabon",
+  "capitais": [
+   "Libreville"
+  ],
+  "capitaisEn": [
+   "Libreville"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": -1,
+  "lng": 11.75,
+  "area": 267668,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "CMR",
+   "COG",
+   "GNQ"
+  ],
+  "bandeira": "🇬🇦"
+ },
+ {
+  "id": "GHA",
+  "iso2": "GH",
+  "ccn3": "288",
+  "nome": "Gana",
+  "nomeEn": "Ghana",
+  "capitais": [
+   "Acra"
+  ],
+  "capitaisEn": [
+   "Accra"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 8,
+  "lng": -2,
+  "area": 238533,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "BFA",
+   "CIV",
+   "TGO"
+  ],
+  "bandeira": "🇬🇭"
+ },
+ {
+  "id": "GEO",
+  "iso2": "GE",
+  "ccn3": "268",
+  "nome": "Geórgia",
+  "nomeEn": "Georgia",
+  "capitais": [
+   "Tbilisi"
+  ],
+  "capitaisEn": [
+   "Tbilisi"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 42,
+  "lng": 43.5,
+  "area": 69700,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Georgian"
+  ],
+  "fronteiras": [
+   "ARM",
+   "AZE",
+   "RUS",
+   "TUR"
+  ],
+  "bandeira": "🇬🇪"
+ },
+ {
+  "id": "GRD",
+  "iso2": "GD",
+  "ccn3": "308",
+  "nome": "Granada",
+  "nomeEn": "Grenada",
+  "capitais": [
+   "Saint George's"
+  ],
+  "capitaisEn": [
+   "St. George's"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 12.11666666,
+  "lng": -61.66666666,
+  "area": 344,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇬🇩"
+ },
+ {
+  "id": "GRC",
+  "iso2": "GR",
+  "ccn3": "300",
+  "nome": "Grécia",
+  "nomeEn": "Greece",
+  "capitais": [
+   "Atenas"
+  ],
+  "capitaisEn": [
+   "Athens"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 39,
+  "lng": 22,
+  "area": 131990,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Greek"
+  ],
+  "fronteiras": [
+   "ALB",
+   "BGR",
+   "TUR",
+   "MKD"
+  ],
+  "bandeira": "🇬🇷"
+ },
+ {
+  "id": "GTM",
+  "iso2": "GT",
+  "ccn3": "320",
+  "nome": "Guatemala",
+  "nomeEn": "Guatemala",
+  "capitais": [
+   "Cidade da Guatemala"
+  ],
+  "capitaisEn": [
+   "Guatemala City"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 15.5,
+  "lng": -90.25,
+  "area": 108889,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "BLZ",
+   "SLV",
+   "HND",
+   "MEX"
+  ],
+  "bandeira": "🇬🇹"
+ },
+ {
+  "id": "GUY",
+  "iso2": "GY",
+  "ccn3": "328",
+  "nome": "Guiana",
+  "nomeEn": "Guyana",
+  "capitais": [
+   "Georgetown"
+  ],
+  "capitaisEn": [
+   "Georgetown"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": 5,
+  "lng": -59,
+  "area": 214969,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "BRA",
+   "SUR",
+   "VEN"
+  ],
+  "bandeira": "🇬🇾"
+ },
+ {
+  "id": "GIN",
+  "iso2": "GN",
+  "ccn3": "324",
+  "nome": "Guiné",
+  "nomeEn": "Guinea",
+  "capitais": [
+   "Conacri"
+  ],
+  "capitaisEn": [
+   "Conakry"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 11,
+  "lng": -10,
+  "area": 245857,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "CIV",
+   "GNB",
+   "LBR",
+   "MLI",
+   "SEN",
+   "SLE"
+  ],
+  "bandeira": "🇬🇳"
+ },
+ {
+  "id": "GNQ",
+  "iso2": "GQ",
+  "ccn3": "226",
+  "nome": "Guiné Equatorial",
+  "nomeEn": "Equatorial Guinea",
+  "capitais": [
+   "Malabo"
+  ],
+  "capitaisEn": [
+   "Malabo"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 2,
+  "lng": 10,
+  "area": 28051,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French",
+   "Portuguese",
+   "Spanish"
+  ],
+  "fronteiras": [
+   "CMR",
+   "GAB"
+  ],
+  "bandeira": "🇬🇶"
+ },
+ {
+  "id": "GNB",
+  "iso2": "GW",
+  "ccn3": "624",
+  "nome": "Guiné-Bissau",
+  "nomeEn": "Guinea-Bissau",
+  "capitais": [
+   "Bissau"
+  ],
+  "capitaisEn": [
+   "Bissau"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 12,
+  "lng": -15,
+  "area": 36125,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese",
+   "Upper Guinea Creole"
+  ],
+  "fronteiras": [
+   "GIN",
+   "SEN"
+  ],
+  "bandeira": "🇬🇼"
+ },
+ {
+  "id": "GMB",
+  "iso2": "GM",
+  "ccn3": "270",
+  "nome": "Gâmbia",
+  "nomeEn": "Gambia",
+  "capitais": [
+   "Banjul"
+  ],
+  "capitaisEn": [
+   "Banjul"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 13.46666666,
+  "lng": -16.56666666,
+  "area": 10689,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "SEN"
+  ],
+  "bandeira": "🇬🇲"
+ },
+ {
+  "id": "HTI",
+  "iso2": "HT",
+  "ccn3": "332",
+  "nome": "Haiti",
+  "nomeEn": "Haiti",
+  "capitais": [
+   "Porto Príncipe"
+  ],
+  "capitaisEn": [
+   "Port-au-Prince"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 19,
+  "lng": -72.41666666,
+  "area": 27750,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French",
+   "Haitian Creole"
+  ],
+  "fronteiras": [
+   "DOM"
+  ],
+  "bandeira": "🇭🇹"
+ },
+ {
+  "id": "NLD",
+  "iso2": "NL",
+  "ccn3": "528",
+  "nome": "Holanda",
+  "nomeEn": "Netherlands",
+  "capitais": [
+   "Amsterdã"
+  ],
+  "capitaisEn": [
+   "Amsterdam"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 52.5,
+  "lng": 5.75,
+  "area": 41850,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Dutch"
+  ],
+  "fronteiras": [
+   "BEL",
+   "DEU"
+  ],
+  "bandeira": "🇳🇱"
+ },
+ {
+  "id": "HND",
+  "iso2": "HN",
+  "ccn3": "340",
+  "nome": "Honduras",
+  "nomeEn": "Honduras",
+  "capitais": [
+   "Tegucigalpa"
+  ],
+  "capitaisEn": [
+   "Tegucigalpa"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 15,
+  "lng": -86.5,
+  "area": 112492,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "GTM",
+   "SLV",
+   "NIC"
+  ],
+  "bandeira": "🇭🇳"
+ },
+ {
+  "id": "HUN",
+  "iso2": "HU",
+  "ccn3": "348",
+  "nome": "Hungria",
+  "nomeEn": "Hungary",
+  "capitais": [
+   "Budapeste"
+  ],
+  "capitaisEn": [
+   "Budapest"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Central Europe",
+  "lat": 47,
+  "lng": 20,
+  "area": 93028,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Hungarian"
+  ],
+  "fronteiras": [
+   "AUT",
+   "HRV",
+   "ROU",
+   "SRB",
+   "SVK",
+   "SVN",
+   "UKR"
+  ],
+  "bandeira": "🇭🇺"
+ },
+ {
+  "id": "MHL",
+  "iso2": "MH",
+  "ccn3": "584",
+  "nome": "Ilhas Marshall",
+  "nomeEn": "Marshall Islands",
+  "capitais": [
+   "Majuro"
+  ],
+  "capitaisEn": [
+   "Majuro"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Micronesia",
+  "lat": 9,
+  "lng": 168,
+  "area": 181,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Marshallese"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇲🇭"
+ },
+ {
+  "id": "SLB",
+  "iso2": "SB",
+  "ccn3": "090",
+  "nome": "Ilhas Salomão",
+  "nomeEn": "Solomon Islands",
+  "capitais": [
+   "Honiara"
+  ],
+  "capitaisEn": [
+   "Honiara"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Melanesia",
+  "lat": -8,
+  "lng": 159,
+  "area": 28896,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇸🇧"
+ },
+ {
+  "id": "IDN",
+  "iso2": "ID",
+  "ccn3": "360",
+  "nome": "Indonésia",
+  "nomeEn": "Indonesia",
+  "capitais": [
+   "Jacarta"
+  ],
+  "capitaisEn": [
+   "Jakarta"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": -5,
+  "lng": 120,
+  "area": 1904569,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Indonesian"
+  ],
+  "fronteiras": [
+   "TLS",
+   "MYS",
+   "PNG"
+  ],
+  "bandeira": "🇮🇩"
+ },
+ {
+  "id": "IRQ",
+  "iso2": "IQ",
+  "ccn3": "368",
+  "nome": "Iraque",
+  "nomeEn": "Iraq",
+  "capitais": [
+   "Bagdá"
+  ],
+  "capitaisEn": [
+   "Baghdad"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 33,
+  "lng": 44,
+  "area": 438317,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "Aramaic",
+   "Sorani"
+  ],
+  "fronteiras": [
+   "IRN",
+   "JOR",
+   "KWT",
+   "SAU",
+   "SYR",
+   "TUR"
+  ],
+  "bandeira": "🇮🇶"
+ },
+ {
+  "id": "IRL",
+  "iso2": "IE",
+  "ccn3": "372",
+  "nome": "Irlanda",
+  "nomeEn": "Ireland",
+  "capitais": [
+   "Dublin"
+  ],
+  "capitaisEn": [
+   "Dublin"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 53,
+  "lng": -8,
+  "area": 70273,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Irish"
+  ],
+  "fronteiras": [
+   "GBR"
+  ],
+  "bandeira": "🇮🇪"
+ },
+ {
+  "id": "IRN",
+  "iso2": "IR",
+  "ccn3": "364",
+  "nome": "Irã",
+  "nomeEn": "Iran",
+  "capitais": [
+   "Teerã"
+  ],
+  "capitaisEn": [
+   "Tehran"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 32,
+  "lng": 53,
+  "area": 1648195,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Persian (Farsi)"
+  ],
+  "fronteiras": [
+   "AFG",
+   "ARM",
+   "AZE",
+   "IRQ",
+   "PAK",
+   "TUR",
+   "TKM"
+  ],
+  "bandeira": "🇮🇷"
+ },
+ {
+  "id": "ISL",
+  "iso2": "IS",
+  "ccn3": "352",
+  "nome": "Islândia",
+  "nomeEn": "Iceland",
+  "capitais": [
+   "Reykjavik"
+  ],
+  "capitaisEn": [
+   "Reykjavik"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 65,
+  "lng": -18,
+  "area": 103000,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Icelandic"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇮🇸"
+ },
+ {
+  "id": "ISR",
+  "iso2": "IL",
+  "ccn3": "376",
+  "nome": "Israel",
+  "nomeEn": "Israel",
+  "capitais": [
+   "Jerusalém"
+  ],
+  "capitaisEn": [
+   "Jerusalem"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 31.47,
+  "lng": 35.13,
+  "area": 20770,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "Hebrew"
+  ],
+  "fronteiras": [
+   "EGY",
+   "JOR",
+   "LBN",
+   "SYR"
+  ],
+  "bandeira": "🇮🇱"
+ },
+ {
+  "id": "ITA",
+  "iso2": "IT",
+  "ccn3": "380",
+  "nome": "Itália",
+  "nomeEn": "Italy",
+  "capitais": [
+   "Roma"
+  ],
+  "capitaisEn": [
+   "Rome"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 42.83333333,
+  "lng": 12.83333333,
+  "area": 301336,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Italian"
+  ],
+  "fronteiras": [
+   "AUT",
+   "FRA",
+   "SMR",
+   "SVN",
+   "CHE",
+   "VAT"
+  ],
+  "bandeira": "🇮🇹"
+ },
+ {
+  "id": "YEM",
+  "iso2": "YE",
+  "ccn3": "887",
+  "nome": "Iêmen",
+  "nomeEn": "Yemen",
+  "capitais": [
+   "Sanaa"
+  ],
+  "capitaisEn": [
+   "Sana'a"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 15,
+  "lng": 48,
+  "area": 527968,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "OMN",
+   "SAU"
+  ],
+  "bandeira": "🇾🇪"
+ },
+ {
+  "id": "JAM",
+  "iso2": "JM",
+  "ccn3": "388",
+  "nome": "Jamaica",
+  "nomeEn": "Jamaica",
+  "capitais": [
+   "Kingston"
+  ],
+  "capitaisEn": [
+   "Kingston"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 18.25,
+  "lng": -77.5,
+  "area": 10991,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Jamaican Patois"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇯🇲"
+ },
+ {
+  "id": "JPN",
+  "iso2": "JP",
+  "ccn3": "392",
+  "nome": "Japão",
+  "nomeEn": "Japan",
+  "capitais": [
+   "Tóquio"
+  ],
+  "capitaisEn": [
+   "Tokyo"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Eastern Asia",
+  "lat": 36,
+  "lng": 138,
+  "area": 377930,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Japanese"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇯🇵"
+ },
+ {
+  "id": "JOR",
+  "iso2": "JO",
+  "ccn3": "400",
+  "nome": "Jordânia",
+  "nomeEn": "Jordan",
+  "capitais": [
+   "Amã"
+  ],
+  "capitaisEn": [
+   "Amman"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 31,
+  "lng": 36,
+  "area": 89342,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "IRQ",
+   "ISR",
+   "SAU",
+   "SYR"
+  ],
+  "bandeira": "🇯🇴"
+ },
+ {
+  "id": "KIR",
+  "iso2": "KI",
+  "ccn3": "296",
+  "nome": "Kiribati",
+  "nomeEn": "Kiribati",
+  "capitais": [
+   "Tarawa do Sul"
+  ],
+  "capitaisEn": [
+   "South Tarawa"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Micronesia",
+  "lat": 1.41666666,
+  "lng": 173,
+  "area": 811,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Gilbertese"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇰🇮"
+ },
+ {
+  "id": "KWT",
+  "iso2": "KW",
+  "ccn3": "414",
+  "nome": "Kuwait",
+  "nomeEn": "Kuwait",
+  "capitais": [
+   "Cidade do Kuwait"
+  ],
+  "capitaisEn": [
+   "Kuwait City"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 29.5,
+  "lng": 45.75,
+  "area": 17818,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "IRQ",
+   "SAU"
+  ],
+  "bandeira": "🇰🇼"
+ },
+ {
+  "id": "LAO",
+  "iso2": "LA",
+  "ccn3": "418",
+  "nome": "Laos",
+  "nomeEn": "Laos",
+  "capitais": [
+   "Vienciana"
+  ],
+  "capitaisEn": [
+   "Vientiane"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 18,
+  "lng": 105,
+  "area": 236800,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Lao"
+  ],
+  "fronteiras": [
+   "MMR",
+   "KHM",
+   "CHN",
+   "THA",
+   "VNM"
+  ],
+  "bandeira": "🇱🇦"
+ },
+ {
+  "id": "LSO",
+  "iso2": "LS",
+  "ccn3": "426",
+  "nome": "Lesoto",
+  "nomeEn": "Lesotho",
+  "capitais": [
+   "Maseru"
+  ],
+  "capitaisEn": [
+   "Maseru"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Southern Africa",
+  "lat": -29.5,
+  "lng": 28.5,
+  "area": 30355,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English",
+   "Sotho"
+  ],
+  "fronteiras": [
+   "ZAF"
+  ],
+  "bandeira": "🇱🇸"
+ },
+ {
+  "id": "LVA",
+  "iso2": "LV",
+  "ccn3": "428",
+  "nome": "Letônia",
+  "nomeEn": "Latvia",
+  "capitais": [
+   "Riga"
+  ],
+  "capitaisEn": [
+   "Riga"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 57,
+  "lng": 25,
+  "area": 64559,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Latvian"
+  ],
+  "fronteiras": [
+   "BLR",
+   "EST",
+   "LTU",
+   "RUS"
+  ],
+  "bandeira": "🇱🇻"
+ },
+ {
+  "id": "LBR",
+  "iso2": "LR",
+  "ccn3": "430",
+  "nome": "Libéria",
+  "nomeEn": "Liberia",
+  "capitais": [
+   "Monróvia"
+  ],
+  "capitaisEn": [
+   "Monrovia"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 6.5,
+  "lng": -9.5,
+  "area": 111369,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "GIN",
+   "CIV",
+   "SLE"
+  ],
+  "bandeira": "🇱🇷"
+ },
+ {
+  "id": "LIE",
+  "iso2": "LI",
+  "ccn3": "438",
+  "nome": "Liechtenstein",
+  "nomeEn": "Liechtenstein",
+  "capitais": [
+   "Vaduz"
+  ],
+  "capitaisEn": [
+   "Vaduz"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 47.26666666,
+  "lng": 9.53333333,
+  "area": 160,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "German"
+  ],
+  "fronteiras": [
+   "AUT",
+   "CHE"
+  ],
+  "bandeira": "🇱🇮"
+ },
+ {
+  "id": "LTU",
+  "iso2": "LT",
+  "ccn3": "440",
+  "nome": "Lituânia",
+  "nomeEn": "Lithuania",
+  "capitais": [
+   "Vilnius"
+  ],
+  "capitaisEn": [
+   "Vilnius"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 56,
+  "lng": 24,
+  "area": 65300,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Lithuanian"
+  ],
+  "fronteiras": [
+   "BLR",
+   "LVA",
+   "POL",
+   "RUS"
+  ],
+  "bandeira": "🇱🇹"
+ },
+ {
+  "id": "LUX",
+  "iso2": "LU",
+  "ccn3": "442",
+  "nome": "Luxemburgo",
+  "nomeEn": "Luxembourg",
+  "capitais": [
+   "Luxemburgo"
+  ],
+  "capitaisEn": [
+   "Luxembourg"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 49.75,
+  "lng": 6.16666666,
+  "area": 2586,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French",
+   "German",
+   "Luxembourgish"
+  ],
+  "fronteiras": [
+   "BEL",
+   "FRA",
+   "DEU"
+  ],
+  "bandeira": "🇱🇺"
+ },
+ {
+  "id": "LBN",
+  "iso2": "LB",
+  "ccn3": "422",
+  "nome": "Líbano",
+  "nomeEn": "Lebanon",
+  "capitais": [
+   "Beirute"
+  ],
+  "capitaisEn": [
+   "Beirut"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 33.83333333,
+  "lng": 35.83333333,
+  "area": 10452,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "French"
+  ],
+  "fronteiras": [
+   "ISR",
+   "SYR"
+  ],
+  "bandeira": "🇱🇧"
+ },
+ {
+  "id": "LBY",
+  "iso2": "LY",
+  "ccn3": "434",
+  "nome": "Líbia",
+  "nomeEn": "Libya",
+  "capitais": [
+   "Trípoli"
+  ],
+  "capitaisEn": [
+   "Tripoli"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Northern Africa",
+  "lat": 25,
+  "lng": 17,
+  "area": 1759540,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "DZA",
+   "TCD",
+   "EGY",
+   "NER",
+   "SDN",
+   "TUN"
+  ],
+  "bandeira": "🇱🇾"
+ },
+ {
+  "id": "MKD",
+  "iso2": "MK",
+  "ccn3": "807",
+  "nome": "Macedônia do Norte",
+  "nomeEn": "North Macedonia",
+  "capitais": [
+   "Skopje"
+  ],
+  "capitaisEn": [
+   "Skopje"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 41.83333333,
+  "lng": 22,
+  "area": 25713,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Macedonian"
+  ],
+  "fronteiras": [
+   "ALB",
+   "BGR",
+   "GRC",
+   "SRB"
+  ],
+  "bandeira": "🇲🇰"
+ },
+ {
+  "id": "MDG",
+  "iso2": "MG",
+  "ccn3": "450",
+  "nome": "Madagáscar",
+  "nomeEn": "Madagascar",
+  "capitais": [
+   "Antananarivo"
+  ],
+  "capitaisEn": [
+   "Antananarivo"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -20,
+  "lng": 47,
+  "area": 587041,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French",
+   "Malagasy"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇲🇬"
+ },
+ {
+  "id": "MWI",
+  "iso2": "MW",
+  "ccn3": "454",
+  "nome": "Malauí",
+  "nomeEn": "Malawi",
+  "capitais": [
+   "Lilongwe"
+  ],
+  "capitaisEn": [
+   "Lilongwe"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -13.5,
+  "lng": 34,
+  "area": 118484,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Chewa",
+   "English"
+  ],
+  "fronteiras": [
+   "MOZ",
+   "TZA",
+   "ZMB"
+  ],
+  "bandeira": "🇲🇼"
+ },
+ {
+  "id": "MDV",
+  "iso2": "MV",
+  "ccn3": "462",
+  "nome": "Maldivas",
+  "nomeEn": "Maldives",
+  "capitais": [
+   "Malé"
+  ],
+  "capitaisEn": [
+   "Malé"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 3.25,
+  "lng": 73,
+  "area": 300,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Maldivian"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇲🇻"
+ },
+ {
+  "id": "MLI",
+  "iso2": "ML",
+  "ccn3": "466",
+  "nome": "Mali",
+  "nomeEn": "Mali",
+  "capitais": [
+   "Bamako"
+  ],
+  "capitaisEn": [
+   "Bamako"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 17,
+  "lng": -4,
+  "area": 1240192,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "DZA",
+   "BFA",
+   "GIN",
+   "CIV",
+   "MRT",
+   "NER",
+   "SEN"
+  ],
+  "bandeira": "🇲🇱"
+ },
+ {
+  "id": "MLT",
+  "iso2": "MT",
+  "ccn3": "470",
+  "nome": "Malta",
+  "nomeEn": "Malta",
+  "capitais": [
+   "Valeta"
+  ],
+  "capitaisEn": [
+   "Valletta"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 35.83333333,
+  "lng": 14.58333333,
+  "area": 316,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Maltese"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇲🇹"
+ },
+ {
+  "id": "MYS",
+  "iso2": "MY",
+  "ccn3": "458",
+  "nome": "Malásia",
+  "nomeEn": "Malaysia",
+  "capitais": [
+   "Kuala Lumpur"
+  ],
+  "capitaisEn": [
+   "Kuala Lumpur"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 2.5,
+  "lng": 112.5,
+  "area": 330803,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Malay"
+  ],
+  "fronteiras": [
+   "BRN",
+   "IDN",
+   "THA"
+  ],
+  "bandeira": "🇲🇾"
+ },
+ {
+  "id": "MAR",
+  "iso2": "MA",
+  "ccn3": "504",
+  "nome": "Marrocos",
+  "nomeEn": "Morocco",
+  "capitais": [
+   "Rabat"
+  ],
+  "capitaisEn": [
+   "Rabat"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Northern Africa",
+  "lat": 32,
+  "lng": -5,
+  "area": 446550,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "Berber"
+  ],
+  "fronteiras": [
+   "DZA",
+   "ESP"
+  ],
+  "bandeira": "🇲🇦"
+ },
+ {
+  "id": "MRT",
+  "iso2": "MR",
+  "ccn3": "478",
+  "nome": "Mauritânia",
+  "nomeEn": "Mauritania",
+  "capitais": [
+   "Nouakchott"
+  ],
+  "capitaisEn": [
+   "Nouakchott"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 20,
+  "lng": -12,
+  "area": 1030700,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "DZA",
+   "MLI",
+   "SEN"
+  ],
+  "bandeira": "🇲🇷"
+ },
+ {
+  "id": "MUS",
+  "iso2": "MU",
+  "ccn3": "480",
+  "nome": "Maurício",
+  "nomeEn": "Mauritius",
+  "capitais": [
+   "Port Louis"
+  ],
+  "capitaisEn": [
+   "Port Louis"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -20.28333333,
+  "lng": 57.55,
+  "area": 2040,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "French",
+   "Mauritian Creole"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇲🇺"
+ },
+ {
+  "id": "MMR",
+  "iso2": "MM",
+  "ccn3": "104",
+  "nome": "Mianmar",
+  "nomeEn": "Myanmar",
+  "capitais": [
+   "Naypyidaw"
+  ],
+  "capitaisEn": [
+   "Naypyidaw"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 22,
+  "lng": 98,
+  "area": 676578,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Burmese"
+  ],
+  "fronteiras": [
+   "BGD",
+   "CHN",
+   "IND",
+   "LAO",
+   "THA"
+  ],
+  "bandeira": "🇲🇲"
+ },
+ {
+  "id": "FSM",
+  "iso2": "FM",
+  "ccn3": "583",
+  "nome": "Micronésia",
+  "nomeEn": "Micronesia",
+  "capitais": [
+   "Palikir"
+  ],
+  "capitaisEn": [
+   "Palikir"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Micronesia",
+  "lat": 6.91666666,
+  "lng": 158.25,
+  "area": 702,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇫🇲"
+ },
+ {
+  "id": "MDA",
+  "iso2": "MD",
+  "ccn3": "498",
+  "nome": "Moldávia",
+  "nomeEn": "Moldova",
+  "capitais": [
+   "Chisinau"
+  ],
+  "capitaisEn": [
+   "Chișinău"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Eastern Europe",
+  "lat": 47,
+  "lng": 29,
+  "area": 33846,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Moldavian"
+  ],
+  "fronteiras": [
+   "ROU",
+   "UKR"
+  ],
+  "bandeira": "🇲🇩"
+ },
+ {
+  "id": "MNG",
+  "iso2": "MN",
+  "ccn3": "496",
+  "nome": "Mongólia",
+  "nomeEn": "Mongolia",
+  "capitais": [
+   "Ulan Bator"
+  ],
+  "capitaisEn": [
+   "Ulan Bator"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Eastern Asia",
+  "lat": 46,
+  "lng": 105,
+  "area": 1564110,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Mongolian"
+  ],
+  "fronteiras": [
+   "CHN",
+   "RUS"
+  ],
+  "bandeira": "🇲🇳"
+ },
+ {
+  "id": "MNE",
+  "iso2": "ME",
+  "ccn3": "499",
+  "nome": "Montenegro",
+  "nomeEn": "Montenegro",
+  "capitais": [
+   "Podgorica"
+  ],
+  "capitaisEn": [
+   "Podgorica"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 42.5,
+  "lng": 19.3,
+  "area": 13812,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Montenegrin"
+  ],
+  "fronteiras": [
+   "ALB",
+   "BIH",
+   "HRV",
+   "SRB"
+  ],
+  "bandeira": "🇲🇪"
+ },
+ {
+  "id": "MOZ",
+  "iso2": "MZ",
+  "ccn3": "508",
+  "nome": "Moçambique",
+  "nomeEn": "Mozambique",
+  "capitais": [
+   "Maputo"
+  ],
+  "capitaisEn": [
+   "Maputo"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -18.25,
+  "lng": 35,
+  "area": 801590,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese"
+  ],
+  "fronteiras": [
+   "MWI",
+   "ZAF",
+   "SWZ",
+   "TZA",
+   "ZMB",
+   "ZWE"
+  ],
+  "bandeira": "🇲🇿"
+ },
+ {
+  "id": "MEX",
+  "iso2": "MX",
+  "ccn3": "484",
+  "nome": "México",
+  "nomeEn": "Mexico",
+  "capitais": [
+   "Cidade do México"
+  ],
+  "capitaisEn": [
+   "Mexico City"
+  ],
+  "regiao": "Americas",
+  "subregiao": "North America",
+  "lat": 23,
+  "lng": -102,
+  "area": 1964375,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "BLZ",
+   "GTM",
+   "USA"
+  ],
+  "bandeira": "🇲🇽"
+ },
+ {
+  "id": "MCO",
+  "iso2": "MC",
+  "ccn3": "492",
+  "nome": "Mônaco",
+  "nomeEn": "Monaco",
+  "capitais": [
+   "Mônaco"
+  ],
+  "capitaisEn": [
+   "Monaco"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 43.73333333,
+  "lng": 7.4,
+  "area": 2.02,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "FRA"
+  ],
+  "bandeira": "🇲🇨"
+ },
+ {
+  "id": "NAM",
+  "iso2": "NA",
+  "ccn3": "516",
+  "nome": "Namíbia",
+  "nomeEn": "Namibia",
+  "capitais": [
+   "Windhoek"
+  ],
+  "capitaisEn": [
+   "Windhoek"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Southern Africa",
+  "lat": -22,
+  "lng": 17,
+  "area": 825615,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Afrikaans",
+   "English",
+   "German",
+   "Herero",
+   "Khoekhoe",
+   "Kwangali",
+   "Lozi",
+   "Ndonga",
+   "Tswana"
+  ],
+  "fronteiras": [
+   "AGO",
+   "BWA",
+   "ZAF",
+   "ZMB"
+  ],
+  "bandeira": "🇳🇦"
+ },
+ {
+  "id": "NRU",
+  "iso2": "NR",
+  "ccn3": "520",
+  "nome": "Nauru",
+  "nomeEn": "Nauru",
+  "capitais": [
+   "Yaren"
+  ],
+  "capitaisEn": [
+   "Yaren"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Micronesia",
+  "lat": -0.53333333,
+  "lng": 166.91666666,
+  "area": 21,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Nauru"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇳🇷"
+ },
+ {
+  "id": "NPL",
+  "iso2": "NP",
+  "ccn3": "524",
+  "nome": "Nepal",
+  "nomeEn": "Nepal",
+  "capitais": [
+   "Catmandu"
+  ],
+  "capitaisEn": [
+   "Kathmandu"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 28,
+  "lng": 84,
+  "area": 147181,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Nepali"
+  ],
+  "fronteiras": [
+   "CHN",
+   "IND"
+  ],
+  "bandeira": "🇳🇵"
+ },
+ {
+  "id": "NIC",
+  "iso2": "NI",
+  "ccn3": "558",
+  "nome": "Nicarágua",
+  "nomeEn": "Nicaragua",
+  "capitais": [
+   "Manágua"
+  ],
+  "capitaisEn": [
+   "Managua"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 13,
+  "lng": -85,
+  "area": 130373,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "CRI",
+   "HND"
+  ],
+  "bandeira": "🇳🇮"
+ },
+ {
+  "id": "NGA",
+  "iso2": "NG",
+  "ccn3": "566",
+  "nome": "Nigéria",
+  "nomeEn": "Nigeria",
+  "capitais": [
+   "Abuja"
+  ],
+  "capitaisEn": [
+   "Abuja"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 10,
+  "lng": 8,
+  "area": 923768,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "BEN",
+   "CMR",
+   "TCD",
+   "NER"
+  ],
+  "bandeira": "🇳🇬"
+ },
+ {
+  "id": "NOR",
+  "iso2": "NO",
+  "ccn3": "578",
+  "nome": "Noruega",
+  "nomeEn": "Norway",
+  "capitais": [
+   "Oslo"
+  ],
+  "capitaisEn": [
+   "Oslo"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 62,
+  "lng": 10,
+  "area": 323802,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Norwegian Bokmål",
+   "Norwegian Nynorsk",
+   "Sami"
+  ],
+  "fronteiras": [
+   "FIN",
+   "SWE",
+   "RUS"
+  ],
+  "bandeira": "🇳🇴"
+ },
+ {
+  "id": "NZL",
+  "iso2": "NZ",
+  "ccn3": "554",
+  "nome": "Nova Zelândia",
+  "nomeEn": "New Zealand",
+  "capitais": [
+   "Wellington"
+  ],
+  "capitaisEn": [
+   "Wellington"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Australia and New Zealand",
+  "lat": -41,
+  "lng": 174,
+  "area": 270467,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Māori",
+   "New Zealand Sign Language"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇳🇿"
+ },
+ {
+  "id": "NER",
+  "iso2": "NE",
+  "ccn3": "562",
+  "nome": "Níger",
+  "nomeEn": "Niger",
+  "capitais": [
+   "Niamey"
+  ],
+  "capitaisEn": [
+   "Niamey"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 16,
+  "lng": 8,
+  "area": 1267000,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "DZA",
+   "BEN",
+   "BFA",
+   "TCD",
+   "LBY",
+   "MLI",
+   "NGA"
+  ],
+  "bandeira": "🇳🇪"
+ },
+ {
+  "id": "OMN",
+  "iso2": "OM",
+  "ccn3": "512",
+  "nome": "Omã",
+  "nomeEn": "Oman",
+  "capitais": [
+   "Mascate"
+  ],
+  "capitaisEn": [
+   "Muscat"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 21,
+  "lng": 57,
+  "area": 309500,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "SAU",
+   "ARE",
+   "YEM"
+  ],
+  "bandeira": "🇴🇲"
+ },
+ {
+  "id": "PLW",
+  "iso2": "PW",
+  "ccn3": "585",
+  "nome": "Palau",
+  "nomeEn": "Palau",
+  "capitais": [
+   "Ngerulmud"
+  ],
+  "capitaisEn": [
+   "Ngerulmud"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Micronesia",
+  "lat": 7.5,
+  "lng": 134.5,
+  "area": 459,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Palauan"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇵🇼"
+ },
+ {
+  "id": "PAN",
+  "iso2": "PA",
+  "ccn3": "591",
+  "nome": "Panamá",
+  "nomeEn": "Panama",
+  "capitais": [
+   "Cidade do Panamá"
+  ],
+  "capitaisEn": [
+   "Panama City"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Central America",
+  "lat": 9,
+  "lng": -80,
+  "area": 75417,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "COL",
+   "CRI"
+  ],
+  "bandeira": "🇵🇦"
+ },
+ {
+  "id": "PNG",
+  "iso2": "PG",
+  "ccn3": "598",
+  "nome": "Papua Nova Guiné",
+  "nomeEn": "Papua New Guinea",
+  "capitais": [
+   "Port Moresby"
+  ],
+  "capitaisEn": [
+   "Port Moresby"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Melanesia",
+  "lat": -6,
+  "lng": 147,
+  "area": 462840,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Hiri Motu",
+   "Tok Pisin"
+  ],
+  "fronteiras": [
+   "IDN"
+  ],
+  "bandeira": "🇵🇬"
+ },
+ {
+  "id": "PAK",
+  "iso2": "PK",
+  "ccn3": "586",
+  "nome": "Paquistão",
+  "nomeEn": "Pakistan",
+  "capitais": [
+   "Islamabade"
+  ],
+  "capitaisEn": [
+   "Islamabad"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 30,
+  "lng": 70,
+  "area": 881912,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Urdu"
+  ],
+  "fronteiras": [
+   "AFG",
+   "CHN",
+   "IND",
+   "IRN"
+  ],
+  "bandeira": "🇵🇰"
+ },
+ {
+  "id": "PRY",
+  "iso2": "PY",
+  "ccn3": "600",
+  "nome": "Paraguai",
+  "nomeEn": "Paraguay",
+  "capitais": [
+   "Assunção"
+  ],
+  "capitaisEn": [
+   "Asunción"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -23,
+  "lng": -58,
+  "area": 406752,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Guaraní",
+   "Spanish"
+  ],
+  "fronteiras": [
+   "ARG",
+   "BOL",
+   "BRA"
+  ],
+  "bandeira": "🇵🇾"
+ },
+ {
+  "id": "PER",
+  "iso2": "PE",
+  "ccn3": "604",
+  "nome": "Peru",
+  "nomeEn": "Peru",
+  "capitais": [
+   "Lima"
+  ],
+  "capitaisEn": [
+   "Lima"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -10,
+  "lng": -76,
+  "area": 1285216,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Aymara",
+   "Quechua",
+   "Spanish"
+  ],
+  "fronteiras": [
+   "BOL",
+   "BRA",
+   "CHL",
+   "COL",
+   "ECU"
+  ],
+  "bandeira": "🇵🇪"
+ },
+ {
+  "id": "POL",
+  "iso2": "PL",
+  "ccn3": "616",
+  "nome": "Polônia",
+  "nomeEn": "Poland",
+  "capitais": [
+   "Varsóvia"
+  ],
+  "capitaisEn": [
+   "Warsaw"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Central Europe",
+  "lat": 52,
+  "lng": 20,
+  "area": 312679,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Polish"
+  ],
+  "fronteiras": [
+   "BLR",
+   "CZE",
+   "DEU",
+   "LTU",
+   "RUS",
+   "SVK",
+   "UKR"
+  ],
+  "bandeira": "🇵🇱"
+ },
+ {
+  "id": "PRT",
+  "iso2": "PT",
+  "ccn3": "620",
+  "nome": "Portugal",
+  "nomeEn": "Portugal",
+  "capitais": [
+   "Lisboa"
+  ],
+  "capitaisEn": [
+   "Lisbon"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 39.5,
+  "lng": -8,
+  "area": 92090,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese"
+  ],
+  "fronteiras": [
+   "ESP"
+  ],
+  "bandeira": "🇵🇹"
+ },
+ {
+  "id": "KGZ",
+  "iso2": "KG",
+  "ccn3": "417",
+  "nome": "Quirguistão",
+  "nomeEn": "Kyrgyzstan",
+  "capitais": [
+   "Bishkek"
+  ],
+  "capitaisEn": [
+   "Bishkek"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Central Asia",
+  "lat": 41,
+  "lng": 75,
+  "area": 199951,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Kyrgyz",
+   "Russian"
+  ],
+  "fronteiras": [
+   "CHN",
+   "KAZ",
+   "TJK",
+   "UZB"
+  ],
+  "bandeira": "🇰🇬"
+ },
+ {
+  "id": "KEN",
+  "iso2": "KE",
+  "ccn3": "404",
+  "nome": "Quênia",
+  "nomeEn": "Kenya",
+  "capitais": [
+   "Nairóbi"
+  ],
+  "capitaisEn": [
+   "Nairobi"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": 1,
+  "lng": 38,
+  "area": 580367,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Swahili"
+  ],
+  "fronteiras": [
+   "ETH",
+   "SOM",
+   "SSD",
+   "TZA",
+   "UGA"
+  ],
+  "bandeira": "🇰🇪"
+ },
+ {
+  "id": "GBR",
+  "iso2": "GB",
+  "ccn3": "826",
+  "nome": "Reino Unido",
+  "nomeEn": "United Kingdom",
+  "capitais": [
+   "Londres"
+  ],
+  "capitaisEn": [
+   "London"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 54,
+  "lng": -2,
+  "area": 242900,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "IRL"
+  ],
+  "bandeira": "🇬🇧"
+ },
+ {
+  "id": "CAF",
+  "iso2": "CF",
+  "ccn3": "140",
+  "nome": "República Centro-Africana",
+  "nomeEn": "Central African Republic",
+  "capitais": [
+   "Bangui"
+  ],
+  "capitaisEn": [
+   "Bangui"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 7,
+  "lng": 21,
+  "area": 622984,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French",
+   "Sango"
+  ],
+  "fronteiras": [
+   "CMR",
+   "TCD",
+   "COD",
+   "COG",
+   "SSD",
+   "SDN"
+  ],
+  "bandeira": "🇨🇫"
+ },
+ {
+  "id": "COD",
+  "iso2": "CD",
+  "ccn3": "180",
+  "nome": "República Democrática do Congo",
+  "nomeEn": "DR Congo",
+  "capitais": [
+   "Kinshasa"
+  ],
+  "capitaisEn": [
+   "Kinshasa"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 0,
+  "lng": 25,
+  "area": 2344858,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French",
+   "Kikongo",
+   "Lingala",
+   "Swahili",
+   "Tshiluba"
+  ],
+  "fronteiras": [
+   "AGO",
+   "BDI",
+   "CAF",
+   "COG",
+   "RWA",
+   "SSD",
+   "TZA",
+   "UGA",
+   "ZMB"
+  ],
+  "bandeira": "🇨🇩"
+ },
+ {
+  "id": "DOM",
+  "iso2": "DO",
+  "ccn3": "214",
+  "nome": "República Dominicana",
+  "nomeEn": "Dominican Republic",
+  "capitais": [
+   "Santo Domingo"
+  ],
+  "capitaisEn": [
+   "Santo Domingo"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 19,
+  "lng": -70.66666666,
+  "area": 48671,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "HTI"
+  ],
+  "bandeira": "🇩🇴"
+ },
+ {
+  "id": "CZE",
+  "iso2": "CZ",
+  "ccn3": "203",
+  "nome": "República Tcheca",
+  "nomeEn": "Czechia",
+  "capitais": [
+   "Praga"
+  ],
+  "capitaisEn": [
+   "Prague"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Central Europe",
+  "lat": 49.75,
+  "lng": 15.5,
+  "area": 78865,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Czech",
+   "Slovak"
+  ],
+  "fronteiras": [
+   "AUT",
+   "DEU",
+   "POL",
+   "SVK"
+  ],
+  "bandeira": "🇨🇿"
+ },
+ {
+  "id": "COG",
+  "iso2": "CG",
+  "ccn3": "178",
+  "nome": "República do Congo",
+  "nomeEn": "Congo",
+  "capitais": [
+   "Brazzaville"
+  ],
+  "capitaisEn": [
+   "Brazzaville"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": -1,
+  "lng": 15,
+  "area": 342000,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French",
+   "Kikongo",
+   "Lingala"
+  ],
+  "fronteiras": [
+   "AGO",
+   "CMR",
+   "CAF",
+   "COD",
+   "GAB"
+  ],
+  "bandeira": "🇨🇬"
+ },
+ {
+  "id": "ROU",
+  "iso2": "RO",
+  "ccn3": "642",
+  "nome": "Romênia",
+  "nomeEn": "Romania",
+  "capitais": [
+   "Bucareste"
+  ],
+  "capitaisEn": [
+   "Bucharest"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 46,
+  "lng": 25,
+  "area": 238391,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Romanian"
+  ],
+  "fronteiras": [
+   "BGR",
+   "HUN",
+   "MDA",
+   "SRB",
+   "UKR"
+  ],
+  "bandeira": "🇷🇴"
+ },
+ {
+  "id": "RWA",
+  "iso2": "RW",
+  "ccn3": "646",
+  "nome": "Ruanda",
+  "nomeEn": "Rwanda",
+  "capitais": [
+   "Kigali"
+  ],
+  "capitaisEn": [
+   "Kigali"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -2,
+  "lng": 30,
+  "area": 26338,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English",
+   "French",
+   "Kinyarwanda"
+  ],
+  "fronteiras": [
+   "BDI",
+   "COD",
+   "TZA",
+   "UGA"
+  ],
+  "bandeira": "🇷🇼"
+ },
+ {
+  "id": "RUS",
+  "iso2": "RU",
+  "ccn3": "643",
+  "nome": "Rússia",
+  "nomeEn": "Russia",
+  "capitais": [
+   "Moscou"
+  ],
+  "capitaisEn": [
+   "Moscow"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Eastern Europe",
+  "lat": 60,
+  "lng": 100,
+  "area": 17098242,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Russian"
+  ],
+  "fronteiras": [
+   "AZE",
+   "BLR",
+   "CHN",
+   "EST",
+   "FIN",
+   "GEO",
+   "KAZ",
+   "PRK",
+   "LVA",
+   "LTU",
+   "MNG",
+   "NOR",
+   "POL",
+   "UKR"
+  ],
+  "bandeira": "🇷🇺"
+ },
+ {
+  "id": "WSM",
+  "iso2": "WS",
+  "ccn3": "882",
+  "nome": "Samoa",
+  "nomeEn": "Samoa",
+  "capitais": [
+   "Apia"
+  ],
+  "capitaisEn": [
+   "Apia"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Polynesia",
+  "lat": -13.58333333,
+  "lng": -172.33333333,
+  "area": 2842,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Samoan"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇼🇸"
+ },
+ {
+  "id": "SMR",
+  "iso2": "SM",
+  "ccn3": "674",
+  "nome": "San Marino",
+  "nomeEn": "San Marino",
+  "capitais": [
+   "San Marino"
+  ],
+  "capitaisEn": [
+   "City of San Marino"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southern Europe",
+  "lat": 43.76666666,
+  "lng": 12.41666666,
+  "area": 61,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Italian"
+  ],
+  "fronteiras": [
+   "ITA"
+  ],
+  "bandeira": "🇸🇲"
+ },
+ {
+  "id": "LCA",
+  "iso2": "LC",
+  "ccn3": "662",
+  "nome": "Santa Lúcia",
+  "nomeEn": "Saint Lucia",
+  "capitais": [
+   "Castries"
+  ],
+  "capitaisEn": [
+   "Castries"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 13.88333333,
+  "lng": -60.96666666,
+  "area": 616,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇱🇨"
+ },
+ {
+  "id": "SYC",
+  "iso2": "SC",
+  "ccn3": "690",
+  "nome": "Seicheles",
+  "nomeEn": "Seychelles",
+  "capitais": [
+   "Victoria"
+  ],
+  "capitaisEn": [
+   "Victoria"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -4.58333333,
+  "lng": 55.66666666,
+  "area": 452,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "French",
+   "Seychellois Creole"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇸🇨"
+ },
+ {
+  "id": "SEN",
+  "iso2": "SN",
+  "ccn3": "686",
+  "nome": "Senegal",
+  "nomeEn": "Senegal",
+  "capitais": [
+   "Dacar"
+  ],
+  "capitaisEn": [
+   "Dakar"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 14,
+  "lng": -14,
+  "area": 196722,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "GMB",
+   "GIN",
+   "GNB",
+   "MLI",
+   "MRT"
+  ],
+  "bandeira": "🇸🇳"
+ },
+ {
+  "id": "SLE",
+  "iso2": "SL",
+  "ccn3": "694",
+  "nome": "Serra Leoa",
+  "nomeEn": "Sierra Leone",
+  "capitais": [
+   "Freetown"
+  ],
+  "capitaisEn": [
+   "Freetown"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 8.5,
+  "lng": -11.5,
+  "area": 71740,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "GIN",
+   "LBR"
+  ],
+  "bandeira": "🇸🇱"
+ },
+ {
+  "id": "SGP",
+  "iso2": "SG",
+  "ccn3": "702",
+  "nome": "Singapura",
+  "nomeEn": "Singapore",
+  "capitais": [
+   "Singapura"
+  ],
+  "capitaisEn": [
+   "Singapore"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 1.36666666,
+  "lng": 103.8,
+  "area": 710,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Chinese",
+   "English",
+   "Malay",
+   "Tamil"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇸🇬"
+ },
+ {
+  "id": "SOM",
+  "iso2": "SO",
+  "ccn3": "706",
+  "nome": "Somália",
+  "nomeEn": "Somalia",
+  "capitais": [
+   "Mogadíscio"
+  ],
+  "capitaisEn": [
+   "Mogadishu"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": 10,
+  "lng": 49,
+  "area": 637657,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "Somali"
+  ],
+  "fronteiras": [
+   "DJI",
+   "ETH",
+   "KEN"
+  ],
+  "bandeira": "🇸🇴"
+ },
+ {
+  "id": "LKA",
+  "iso2": "LK",
+  "ccn3": "144",
+  "nome": "Sri Lanka",
+  "nomeEn": "Sri Lanka",
+  "capitais": [
+   "Colombo"
+  ],
+  "capitaisEn": [
+   "Colombo"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 7,
+  "lng": 81,
+  "area": 65610,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Sinhala",
+   "Tamil"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇱🇰"
+ },
+ {
+  "id": "SDN",
+  "iso2": "SD",
+  "ccn3": "729",
+  "nome": "Sudão",
+  "nomeEn": "Sudan",
+  "capitais": [
+   "Cartum"
+  ],
+  "capitaisEn": [
+   "Khartoum"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Northern Africa",
+  "lat": 15,
+  "lng": 30,
+  "area": 1886068,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic",
+   "English"
+  ],
+  "fronteiras": [
+   "CAF",
+   "TCD",
+   "EGY",
+   "ERI",
+   "ETH",
+   "LBY",
+   "SSD"
+  ],
+  "bandeira": "🇸🇩"
+ },
+ {
+  "id": "SSD",
+  "iso2": "SS",
+  "ccn3": "728",
+  "nome": "Sudão do Sul",
+  "nomeEn": "South Sudan",
+  "capitais": [
+   "Juba"
+  ],
+  "capitaisEn": [
+   "Juba"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 7,
+  "lng": 30,
+  "area": 619745,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "CAF",
+   "COD",
+   "ETH",
+   "KEN",
+   "SDN",
+   "UGA"
+  ],
+  "bandeira": "🇸🇸"
+ },
+ {
+  "id": "SUR",
+  "iso2": "SR",
+  "ccn3": "740",
+  "nome": "Suriname",
+  "nomeEn": "Suriname",
+  "capitais": [
+   "Paramaribo"
+  ],
+  "capitaisEn": [
+   "Paramaribo"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": 4,
+  "lng": -56,
+  "area": 163820,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Dutch"
+  ],
+  "fronteiras": [
+   "BRA",
+   "GUY"
+  ],
+  "bandeira": "🇸🇷"
+ },
+ {
+  "id": "SWE",
+  "iso2": "SE",
+  "ccn3": "752",
+  "nome": "Suécia",
+  "nomeEn": "Sweden",
+  "capitais": [
+   "Estocolmo"
+  ],
+  "capitaisEn": [
+   "Stockholm"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Northern Europe",
+  "lat": 62,
+  "lng": 15,
+  "area": 450295,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Swedish"
+  ],
+  "fronteiras": [
+   "FIN",
+   "NOR"
+  ],
+  "bandeira": "🇸🇪"
+ },
+ {
+  "id": "CHE",
+  "iso2": "CH",
+  "ccn3": "756",
+  "nome": "Suíça",
+  "nomeEn": "Switzerland",
+  "capitais": [
+   "Berna"
+  ],
+  "capitaisEn": [
+   "Bern"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Western Europe",
+  "lat": 47,
+  "lng": 8,
+  "area": 41284,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "French",
+   "Italian",
+   "Romansh",
+   "Swiss German"
+  ],
+  "fronteiras": [
+   "AUT",
+   "FRA",
+   "ITA",
+   "LIE",
+   "DEU"
+  ],
+  "bandeira": "🇨🇭"
+ },
+ {
+  "id": "KNA",
+  "iso2": "KN",
+  "ccn3": "659",
+  "nome": "São Cristóvão e Nevis",
+  "nomeEn": "Saint Kitts and Nevis",
+  "capitais": [
+   "Basseterre"
+  ],
+  "capitaisEn": [
+   "Basseterre"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 17.33333333,
+  "lng": -62.75,
+  "area": 261,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇰🇳"
+ },
+ {
+  "id": "STP",
+  "iso2": "ST",
+  "ccn3": "678",
+  "nome": "São Tomé e Príncipe",
+  "nomeEn": "São Tomé and Príncipe",
+  "capitais": [
+   "São Tomé"
+  ],
+  "capitaisEn": [
+   "São Tomé"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Middle Africa",
+  "lat": 1,
+  "lng": 7,
+  "area": 964,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇸🇹"
+ },
+ {
+  "id": "VCT",
+  "iso2": "VC",
+  "ccn3": "670",
+  "nome": "São Vicente e Granadinas",
+  "nomeEn": "Saint Vincent and the Grenadines",
+  "capitais": [
+   "Kingstown"
+  ],
+  "capitaisEn": [
+   "Kingstown"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 13.25,
+  "lng": -61.2,
+  "area": 389,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇻🇨"
+ },
+ {
+  "id": "SRB",
+  "iso2": "RS",
+  "ccn3": "688",
+  "nome": "Sérvia",
+  "nomeEn": "Serbia",
+  "capitais": [
+   "Belgrado"
+  ],
+  "capitaisEn": [
+   "Belgrade"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Southeast Europe",
+  "lat": 44,
+  "lng": 21,
+  "area": 88361,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Serbian"
+  ],
+  "fronteiras": [
+   "BIH",
+   "BGR",
+   "HRV",
+   "HUN",
+   "MKD",
+   "MNE",
+   "ROU"
+  ],
+  "bandeira": "🇷🇸"
+ },
+ {
+  "id": "SYR",
+  "iso2": "SY",
+  "ccn3": "760",
+  "nome": "Síria",
+  "nomeEn": "Syria",
+  "capitais": [
+   "Damasco"
+  ],
+  "capitaisEn": [
+   "Damascus"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 35,
+  "lng": 38,
+  "area": 185180,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "IRQ",
+   "ISR",
+   "JOR",
+   "LBN",
+   "TUR"
+  ],
+  "bandeira": "🇸🇾"
+ },
+ {
+  "id": "THA",
+  "iso2": "TH",
+  "ccn3": "764",
+  "nome": "Tailândia",
+  "nomeEn": "Thailand",
+  "capitais": [
+   "Bangcoc"
+  ],
+  "capitaisEn": [
+   "Bangkok"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 15,
+  "lng": 100,
+  "area": 513120,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Thai"
+  ],
+  "fronteiras": [
+   "MMR",
+   "KHM",
+   "LAO",
+   "MYS"
+  ],
+  "bandeira": "🇹🇭"
+ },
+ {
+  "id": "TJK",
+  "iso2": "TJ",
+  "ccn3": "762",
+  "nome": "Tajiquistão",
+  "nomeEn": "Tajikistan",
+  "capitais": [
+   "Dushanbe"
+  ],
+  "capitaisEn": [
+   "Dushanbe"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Central Asia",
+  "lat": 39,
+  "lng": 71,
+  "area": 143100,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Russian",
+   "Tajik"
+  ],
+  "fronteiras": [
+   "AFG",
+   "CHN",
+   "KGZ",
+   "UZB"
+  ],
+  "bandeira": "🇹🇯"
+ },
+ {
+  "id": "TZA",
+  "iso2": "TZ",
+  "ccn3": "834",
+  "nome": "Tanzânia",
+  "nomeEn": "Tanzania",
+  "capitais": [
+   "Dodoma"
+  ],
+  "capitaisEn": [
+   "Dodoma"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -6,
+  "lng": 35,
+  "area": 945087,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Swahili"
+  ],
+  "fronteiras": [
+   "BDI",
+   "COD",
+   "KEN",
+   "MWI",
+   "MOZ",
+   "RWA",
+   "UGA",
+   "ZMB"
+  ],
+  "bandeira": "🇹🇿"
+ },
+ {
+  "id": "TLS",
+  "iso2": "TL",
+  "ccn3": "626",
+  "nome": "Timor-Leste",
+  "nomeEn": "Timor-Leste",
+  "capitais": [
+   "Díli"
+  ],
+  "capitaisEn": [
+   "Dili"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": -8.83333333,
+  "lng": 125.91666666,
+  "area": 14874,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Portuguese",
+   "Tetum"
+  ],
+  "fronteiras": [
+   "IDN"
+  ],
+  "bandeira": "🇹🇱"
+ },
+ {
+  "id": "TGO",
+  "iso2": "TG",
+  "ccn3": "768",
+  "nome": "Togo",
+  "nomeEn": "Togo",
+  "capitais": [
+   "Lomé"
+  ],
+  "capitaisEn": [
+   "Lomé"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Western Africa",
+  "lat": 8,
+  "lng": 1.16666666,
+  "area": 56785,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "French"
+  ],
+  "fronteiras": [
+   "BEN",
+   "BFA",
+   "GHA"
+  ],
+  "bandeira": "🇹🇬"
+ },
+ {
+  "id": "TON",
+  "iso2": "TO",
+  "ccn3": "776",
+  "nome": "Tonga",
+  "nomeEn": "Tonga",
+  "capitais": [
+   "Nuku'alofa"
+  ],
+  "capitaisEn": [
+   "Nuku'alofa"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Polynesia",
+  "lat": -20,
+  "lng": -175,
+  "area": 747,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Tongan"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇹🇴"
+ },
+ {
+  "id": "TTO",
+  "iso2": "TT",
+  "ccn3": "780",
+  "nome": "Trinidad e Tobago",
+  "nomeEn": "Trinidad and Tobago",
+  "capitais": [
+   "Port of Spain"
+  ],
+  "capitaisEn": [
+   "Port of Spain"
+  ],
+  "regiao": "Americas",
+  "subregiao": "Caribbean",
+  "lat": 11,
+  "lng": -61,
+  "area": 5130,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇹🇹"
+ },
+ {
+  "id": "TUN",
+  "iso2": "TN",
+  "ccn3": "788",
+  "nome": "Tunísia",
+  "nomeEn": "Tunisia",
+  "capitais": [
+   "Túnis"
+  ],
+  "capitaisEn": [
+   "Tunis"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Northern Africa",
+  "lat": 34,
+  "lng": 9,
+  "area": 163610,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Arabic"
+  ],
+  "fronteiras": [
+   "DZA",
+   "LBY"
+  ],
+  "bandeira": "🇹🇳"
+ },
+ {
+  "id": "TKM",
+  "iso2": "TM",
+  "ccn3": "795",
+  "nome": "Turquemenistão",
+  "nomeEn": "Turkmenistan",
+  "capitais": [
+   "Asgabate"
+  ],
+  "capitaisEn": [
+   "Ashgabat"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Central Asia",
+  "lat": 40,
+  "lng": 60,
+  "area": 488100,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Russian",
+   "Turkmen"
+  ],
+  "fronteiras": [
+   "AFG",
+   "IRN",
+   "KAZ",
+   "UZB"
+  ],
+  "bandeira": "🇹🇲"
+ },
+ {
+  "id": "TUR",
+  "iso2": "TR",
+  "ccn3": "792",
+  "nome": "Turquia",
+  "nomeEn": "Türkiye",
+  "capitais": [
+   "Ancara"
+  ],
+  "capitaisEn": [
+   "Ankara"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Western Asia",
+  "lat": 39,
+  "lng": 35,
+  "area": 783562,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Turkish"
+  ],
+  "fronteiras": [
+   "ARM",
+   "AZE",
+   "BGR",
+   "GEO",
+   "GRC",
+   "IRN",
+   "IRQ",
+   "SYR"
+  ],
+  "bandeira": "🇹🇷"
+ },
+ {
+  "id": "TUV",
+  "iso2": "TV",
+  "ccn3": "798",
+  "nome": "Tuvalu",
+  "nomeEn": "Tuvalu",
+  "capitais": [
+   "Funafuti"
+  ],
+  "capitaisEn": [
+   "Funafuti"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Polynesia",
+  "lat": -8,
+  "lng": 178,
+  "area": 26,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Tuvaluan"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇹🇻"
+ },
+ {
+  "id": "UKR",
+  "iso2": "UA",
+  "ccn3": "804",
+  "nome": "Ucrânia",
+  "nomeEn": "Ukraine",
+  "capitais": [
+   "Kiev"
+  ],
+  "capitaisEn": [
+   "Kyiv"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Eastern Europe",
+  "lat": 49,
+  "lng": 32,
+  "area": 603500,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Ukrainian"
+  ],
+  "fronteiras": [
+   "BLR",
+   "HUN",
+   "MDA",
+   "POL",
+   "ROU",
+   "RUS",
+   "SVK"
+  ],
+  "bandeira": "🇺🇦"
+ },
+ {
+  "id": "UGA",
+  "iso2": "UG",
+  "ccn3": "800",
+  "nome": "Uganda",
+  "nomeEn": "Uganda",
+  "capitais": [
+   "Kampala"
+  ],
+  "capitaisEn": [
+   "Kampala"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": 1,
+  "lng": 32,
+  "area": 241550,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English",
+   "Swahili"
+  ],
+  "fronteiras": [
+   "COD",
+   "KEN",
+   "RWA",
+   "SSD",
+   "TZA"
+  ],
+  "bandeira": "🇺🇬"
+ },
+ {
+  "id": "URY",
+  "iso2": "UY",
+  "ccn3": "858",
+  "nome": "Uruguai",
+  "nomeEn": "Uruguay",
+  "capitais": [
+   "Montevidéu"
+  ],
+  "capitaisEn": [
+   "Montevideo"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": -33,
+  "lng": -56,
+  "area": 181034,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "ARG",
+   "BRA"
+  ],
+  "bandeira": "🇺🇾"
+ },
+ {
+  "id": "UZB",
+  "iso2": "UZ",
+  "ccn3": "860",
+  "nome": "Uzbequistão",
+  "nomeEn": "Uzbekistan",
+  "capitais": [
+   "Tashkent"
+  ],
+  "capitaisEn": [
+   "Tashkent"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Central Asia",
+  "lat": 41,
+  "lng": 64,
+  "area": 447400,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Russian",
+   "Uzbek"
+  ],
+  "fronteiras": [
+   "AFG",
+   "KAZ",
+   "KGZ",
+   "TJK",
+   "TKM"
+  ],
+  "bandeira": "🇺🇿"
+ },
+ {
+  "id": "VUT",
+  "iso2": "VU",
+  "ccn3": "548",
+  "nome": "Vanuatu",
+  "nomeEn": "Vanuatu",
+  "capitais": [
+   "Port Vila"
+  ],
+  "capitaisEn": [
+   "Port Vila"
+  ],
+  "regiao": "Oceania",
+  "subregiao": "Melanesia",
+  "lat": -16,
+  "lng": 167,
+  "area": 12189,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Bislama",
+   "English",
+   "French"
+  ],
+  "fronteiras": [],
+  "bandeira": "🇻🇺"
+ },
+ {
+  "id": "VEN",
+  "iso2": "VE",
+  "ccn3": "862",
+  "nome": "Venezuela",
+  "nomeEn": "Venezuela",
+  "capitais": [
+   "Caracas"
+  ],
+  "capitaisEn": [
+   "Caracas"
+  ],
+  "regiao": "Americas",
+  "subregiao": "South America",
+  "lat": 8,
+  "lng": -66,
+  "area": 916445,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Spanish"
+  ],
+  "fronteiras": [
+   "BRA",
+   "COL",
+   "GUY"
+  ],
+  "bandeira": "🇻🇪"
+ },
+ {
+  "id": "VNM",
+  "iso2": "VN",
+  "ccn3": "704",
+  "nome": "Vietnã",
+  "nomeEn": "Vietnam",
+  "capitais": [
+   "Hanói"
+  ],
+  "capitaisEn": [
+   "Hanoi"
+  ],
+  "regiao": "Asia",
+  "subregiao": "South-Eastern Asia",
+  "lat": 16.16666666,
+  "lng": 107.83333333,
+  "area": 331212,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Vietnamese"
+  ],
+  "fronteiras": [
+   "KHM",
+   "CHN",
+   "LAO"
+  ],
+  "bandeira": "🇻🇳"
+ },
+ {
+  "id": "ZWE",
+  "iso2": "ZW",
+  "ccn3": "716",
+  "nome": "Zimbábue",
+  "nomeEn": "Zimbabwe",
+  "capitais": [
+   "Harare"
+  ],
+  "capitaisEn": [
+   "Harare"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -20,
+  "lng": 30,
+  "area": 390757,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Chewa",
+   "Chibarwe",
+   "English",
+   "Kalanga",
+   "Khoisan",
+   "Ndau",
+   "Northern Ndebele",
+   "Shona",
+   "Sotho",
+   "Tonga",
+   "Tsonga",
+   "Tswana",
+   "Venda",
+   "Xhosa",
+   "Zimbabwean Sign Language"
+  ],
+  "fronteiras": [
+   "BWA",
+   "MOZ",
+   "ZAF",
+   "ZMB"
+  ],
+  "bandeira": "🇿🇼"
+ },
+ {
+  "id": "ZMB",
+  "iso2": "ZM",
+  "ccn3": "894",
+  "nome": "Zâmbia",
+  "nomeEn": "Zambia",
+  "capitais": [
+   "Lusaka"
+  ],
+  "capitaisEn": [
+   "Lusaka"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Eastern Africa",
+  "lat": -15,
+  "lng": 30,
+  "area": 752612,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "English"
+  ],
+  "fronteiras": [
+   "AGO",
+   "BWA",
+   "COD",
+   "MWI",
+   "MOZ",
+   "NAM",
+   "TZA",
+   "ZWE"
+  ],
+  "bandeira": "🇿🇲"
+ },
+ {
+  "id": "ZAF",
+  "iso2": "ZA",
+  "ccn3": "710",
+  "nome": "África do Sul",
+  "nomeEn": "South Africa",
+  "capitais": [
+   "Pretória",
+   "Bloemfontein",
+   "Cidade do Cabo"
+  ],
+  "capitaisEn": [
+   "Pretoria",
+   "Bloemfontein",
+   "Cape Town"
+  ],
+  "regiao": "Africa",
+  "subregiao": "Southern Africa",
+  "lat": -29,
+  "lng": 24,
+  "area": 1221037,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "Afrikaans",
+   "English",
+   "Northern Sotho",
+   "Southern Ndebele",
+   "Southern Sotho",
+   "Swazi",
+   "Tsonga",
+   "Tswana",
+   "Venda",
+   "Xhosa",
+   "Zulu"
+  ],
+  "fronteiras": [
+   "BWA",
+   "LSO",
+   "MOZ",
+   "NAM",
+   "SWZ",
+   "ZWE"
+  ],
+  "bandeira": "🇿🇦"
+ },
+ {
+  "id": "AUT",
+  "iso2": "AT",
+  "ccn3": "040",
+  "nome": "Áustria",
+  "nomeEn": "Austria",
+  "capitais": [
+   "Viena"
+  ],
+  "capitaisEn": [
+   "Vienna"
+  ],
+  "regiao": "Europe",
+  "subregiao": "Central Europe",
+  "lat": 47.33333333,
+  "lng": 13.33333333,
+  "area": 83871,
+  "semSaidaParaOMar": true,
+  "idiomas": [
+   "Austro-Bavarian German"
+  ],
+  "fronteiras": [
+   "CZE",
+   "DEU",
+   "HUN",
+   "ITA",
+   "LIE",
+   "SVK",
+   "SVN",
+   "CHE"
+  ],
+  "bandeira": "🇦🇹"
+ },
+ {
+  "id": "IND",
+  "iso2": "IN",
+  "ccn3": "356",
+  "nome": "Índia",
+  "nomeEn": "India",
+  "capitais": [
+   "Nova Délhi"
+  ],
+  "capitaisEn": [
+   "New Delhi"
+  ],
+  "regiao": "Asia",
+  "subregiao": "Southern Asia",
+  "lat": 20,
+  "lng": 77,
+  "area": 3287590,
+  "semSaidaParaOMar": false,
+  "idiomas": [
+   "English",
+   "Hindi",
+   "Tamil"
+  ],
+  "fronteiras": [
+   "BGD",
+   "BTN",
+   "MMR",
+   "CHN",
+   "NPL",
+   "PAK"
+  ],
+  "bandeira": "🇮🇳"
+ }
+]
